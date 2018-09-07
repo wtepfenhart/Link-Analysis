@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>On</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>May</word>
+            <lemma>May</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2016-05-27</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2016-05-27</Timex>
+          </token>
+          <token id="3">
+            <word>27</word>
+            <lemma>27</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2016-05-27</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2016-05-27</Timex>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2016-05-27</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2016-05-27</Timex>
+          </token>
+          <token id="5">
+            <word>2016</word>
+            <lemma>2016</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2016-05-27</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2016-05-27</Timex>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>71st</word>
+            <lemma>71st</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>71.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>anniversary</word>
+            <lemma>anniversary</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>atomic</word>
+            <lemma>atomic</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>bombing</word>
+            <lemma>bombing</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>Hiroshima</word>
+            <lemma>Hiroshima</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>America</word>
+            <lemma>America</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>Obama</word>
+            <lemma>Obama</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>became</word>
+            <lemma>become</lemma>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>first</word>
+            <lemma>first</lemma>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>1.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>sitting</word>
+            <lemma>sit</lemma>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>American</word>
+            <lemma>american</lemma>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>president</word>
+            <lemma>president</lemma>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>137</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="27">
+            <word>visit</word>
+            <lemma>visit</lemma>
+            <CharacterOffsetBegin>138</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="28">
+            <word>Hiroshima</word>
+            <lemma>Hiroshima</lemma>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>153</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="29">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>153</CharacterOffsetBegin>
+            <CharacterOffsetEnd>154</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="30">
+            <word>Japan</word>
+            <lemma>Japan</lemma>
+            <CharacterOffsetBegin>155</CharacterOffsetBegin>
+            <CharacterOffsetEnd>160</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="31">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>160</CharacterOffsetBegin>
+            <CharacterOffsetEnd>161</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN On) (NP (NNP May) (CD 27) (, ,) (CD 2016))) (, ,) (NP (NP (DT the) (JJ 71st) (NN anniversary)) (PP (IN of) (NP (NP (DT the) (JJ atomic) (NN bombing)) (PP (IN of) (NP (NP (NNP Hiroshima)) (PP (IN by) (NP (NNP America) (, ,) (NNP Obama)))))))) (VP (VBD became) (NP (DT the) (JJ first) (VBG sitting) (JJ American) (NN president)) (S (VP (TO to) (VP (VB visit) (NP (NP (NNP Hiroshima)) (, ,) (NP (NNP Japan))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="20">became</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">May</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="20">became</governor>
+            <dependent idx="2">May</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">May</governor>
+            <dependent idx="3">27</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">May</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">May</governor>
+            <dependent idx="5">2016</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="20">became</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">anniversary</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">anniversary</governor>
+            <dependent idx="8">71st</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">became</governor>
+            <dependent idx="9">anniversary</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">bombing</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">bombing</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">bombing</governor>
+            <dependent idx="12">atomic</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="9">anniversary</governor>
+            <dependent idx="13">bombing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">Hiroshima</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="13">bombing</governor>
+            <dependent idx="15">Hiroshima</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">Obama</governor>
+            <dependent idx="16">by</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="19">Obama</governor>
+            <dependent idx="17">America</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">Obama</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="15">Hiroshima</governor>
+            <dependent idx="19">Obama</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">president</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">president</governor>
+            <dependent idx="22">first</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">president</governor>
+            <dependent idx="23">sitting</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">president</governor>
+            <dependent idx="24">American</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="20">became</governor>
+            <dependent idx="25">president</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="27">visit</governor>
+            <dependent idx="26">to</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="20">became</governor>
+            <dependent idx="27">visit</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="27">visit</governor>
+            <dependent idx="28">Hiroshima</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="28">Hiroshima</governor>
+            <dependent idx="29">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="28">Hiroshima</governor>
+            <dependent idx="30">Japan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="20">became</governor>
+            <dependent idx="31">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="20">became</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">May</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="20">became</governor>
+            <dependent idx="2">May</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">May</governor>
+            <dependent idx="3">27</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">May</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">May</governor>
+            <dependent idx="5">2016</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="20">became</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">anniversary</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">anniversary</governor>
+            <dependent idx="8">71st</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">became</governor>
+            <dependent idx="9">anniversary</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">bombing</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">bombing</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">bombing</governor>
+            <dependent idx="12">atomic</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="9">anniversary</governor>
+            <dependent idx="13">bombing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">Hiroshima</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="13">bombing</governor>
+            <dependent idx="15">Hiroshima</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">Obama</governor>
+            <dependent idx="16">by</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="19">Obama</governor>
+            <dependent idx="17">America</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">Obama</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="15">Hiroshima</governor>
+            <dependent idx="19">Obama</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">president</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">president</governor>
+            <dependent idx="22">first</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">president</governor>
+            <dependent idx="23">sitting</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">president</governor>
+            <dependent idx="24">American</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="20">became</governor>
+            <dependent idx="25">president</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="27">visit</governor>
+            <dependent idx="26">to</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="20">became</governor>
+            <dependent idx="27">visit</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="27">visit</governor>
+            <dependent idx="28">Hiroshima</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="28">Hiroshima</governor>
+            <dependent idx="29">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="28">Hiroshima</governor>
+            <dependent idx="30">Japan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="20">became</governor>
+            <dependent idx="31">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="20">became</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">May</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="20">became</governor>
+            <dependent idx="2">May</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">May</governor>
+            <dependent idx="3">27</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">May</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">May</governor>
+            <dependent idx="5">2016</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="20">became</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">anniversary</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">anniversary</governor>
+            <dependent idx="8">71st</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">became</governor>
+            <dependent idx="9">anniversary</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">bombing</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">bombing</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">bombing</governor>
+            <dependent idx="12">atomic</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="9">anniversary</governor>
+            <dependent idx="13">bombing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">Hiroshima</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="13">bombing</governor>
+            <dependent idx="15">Hiroshima</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">Obama</governor>
+            <dependent idx="16">by</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="19">Obama</governor>
+            <dependent idx="17">America</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">Obama</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="15">Hiroshima</governor>
+            <dependent idx="19">Obama</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">president</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">president</governor>
+            <dependent idx="22">first</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">president</governor>
+            <dependent idx="23">sitting</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">president</governor>
+            <dependent idx="24">American</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="20">became</governor>
+            <dependent idx="25">president</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="27">visit</governor>
+            <dependent idx="26">to</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="20">became</governor>
+            <dependent idx="27">visit</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="27">visit</governor>
+            <dependent idx="28">Hiroshima</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="28">Hiroshima</governor>
+            <dependent idx="29">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="28">Hiroshima</governor>
+            <dependent idx="30">Japan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="20">became</governor>
+            <dependent idx="31">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Accompanied</word>
+            <lemma>accompany</lemma>
+            <CharacterOffsetBegin>162</CharacterOffsetBegin>
+            <CharacterOffsetEnd>173</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>174</CharacterOffsetBegin>
+            <CharacterOffsetEnd>176</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Japanese</word>
+            <lemma>japanese</lemma>
+            <CharacterOffsetBegin>177</CharacterOffsetBegin>
+            <CharacterOffsetEnd>185</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Prime</word>
+            <lemma>Prime</lemma>
+            <CharacterOffsetBegin>186</CharacterOffsetBegin>
+            <CharacterOffsetEnd>191</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Minister</word>
+            <lemma>Minister</lemma>
+            <CharacterOffsetBegin>192</CharacterOffsetBegin>
+            <CharacterOffsetEnd>200</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Shinzo</word>
+            <lemma>Shinzo</lemma>
+            <CharacterOffsetBegin>201</CharacterOffsetBegin>
+            <CharacterOffsetEnd>207</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Abe</word>
+            <lemma>Abe</lemma>
+            <CharacterOffsetBegin>208</CharacterOffsetBegin>
+            <CharacterOffsetEnd>211</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>211</CharacterOffsetBegin>
+            <CharacterOffsetEnd>212</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Obama</word>
+            <lemma>Obama</lemma>
+            <CharacterOffsetBegin>213</CharacterOffsetBegin>
+            <CharacterOffsetEnd>218</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>paid</word>
+            <lemma>pay</lemma>
+            <CharacterOffsetBegin>219</CharacterOffsetBegin>
+            <CharacterOffsetEnd>223</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>tribute</word>
+            <lemma>tribute</lemma>
+            <CharacterOffsetBegin>224</CharacterOffsetBegin>
+            <CharacterOffsetEnd>231</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>232</CharacterOffsetBegin>
+            <CharacterOffsetEnd>234</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>235</CharacterOffsetBegin>
+            <CharacterOffsetEnd>238</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>victims</word>
+            <lemma>victim</lemma>
+            <CharacterOffsetBegin>239</CharacterOffsetBegin>
+            <CharacterOffsetEnd>246</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>247</CharacterOffsetBegin>
+            <CharacterOffsetEnd>249</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>250</CharacterOffsetBegin>
+            <CharacterOffsetEnd>253</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>bombing</word>
+            <lemma>bombing</lemma>
+            <CharacterOffsetBegin>254</CharacterOffsetBegin>
+            <CharacterOffsetEnd>261</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>262</CharacterOffsetBegin>
+            <CharacterOffsetEnd>264</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>265</CharacterOffsetBegin>
+            <CharacterOffsetEnd>268</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>Hiroshima</word>
+            <lemma>Hiroshima</lemma>
+            <CharacterOffsetBegin>269</CharacterOffsetBegin>
+            <CharacterOffsetEnd>278</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>Peace</word>
+            <lemma>Peace</lemma>
+            <CharacterOffsetBegin>279</CharacterOffsetBegin>
+            <CharacterOffsetEnd>284</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>Memorial</word>
+            <lemma>Memorial</lemma>
+            <CharacterOffsetBegin>285</CharacterOffsetBegin>
+            <CharacterOffsetEnd>293</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>Museum</word>
+            <lemma>Museum</lemma>
+            <CharacterOffsetBegin>294</CharacterOffsetBegin>
+            <CharacterOffsetEnd>300</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>300</CharacterOffsetBegin>
+            <CharacterOffsetEnd>301</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (VP (VBN Accompanied) (PP (IN by) (NP (JJ Japanese) (NNP Prime) (NNP Minister) (NNP Shinzo) (NNP Abe))))) (, ,) (NP (NNP Obama)) (VP (VBD paid) (NP (NN tribute)) (PP (TO to) (NP (NP (DT the) (NNS victims)) (PP (IN of) (NP (DT the) (NN bombing))))) (PP (IN at) (NP (DT the) (NNP Hiroshima) (NNP Peace) (NNP Memorial) (NNP Museum)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">paid</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="10">paid</governor>
+            <dependent idx="1">Accompanied</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Abe</governor>
+            <dependent idx="2">by</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">Abe</governor>
+            <dependent idx="3">Japanese</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Abe</governor>
+            <dependent idx="4">Prime</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Abe</governor>
+            <dependent idx="5">Minister</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Abe</governor>
+            <dependent idx="6">Shinzo</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Accompanied</governor>
+            <dependent idx="7">Abe</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">paid</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">paid</governor>
+            <dependent idx="9">Obama</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">paid</governor>
+            <dependent idx="11">tribute</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">victims</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">victims</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">paid</governor>
+            <dependent idx="14">victims</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">bombing</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">bombing</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="14">victims</governor>
+            <dependent idx="17">bombing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="23">Museum</governor>
+            <dependent idx="18">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">Museum</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="23">Museum</governor>
+            <dependent idx="20">Hiroshima</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="23">Museum</governor>
+            <dependent idx="21">Peace</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="23">Museum</governor>
+            <dependent idx="22">Memorial</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">paid</governor>
+            <dependent idx="23">Museum</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">paid</governor>
+            <dependent idx="24">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">paid</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="10">paid</governor>
+            <dependent idx="1">Accompanied</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Abe</governor>
+            <dependent idx="2">by</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">Abe</governor>
+            <dependent idx="3">Japanese</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Abe</governor>
+            <dependent idx="4">Prime</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Abe</governor>
+            <dependent idx="5">Minister</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Abe</governor>
+            <dependent idx="6">Shinzo</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="1">Accompanied</governor>
+            <dependent idx="7">Abe</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">paid</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">paid</governor>
+            <dependent idx="9">Obama</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">paid</governor>
+            <dependent idx="11">tribute</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">victims</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">victims</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="10">paid</governor>
+            <dependent idx="14">victims</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">bombing</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">bombing</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="14">victims</governor>
+            <dependent idx="17">bombing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="23">Museum</governor>
+            <dependent idx="18">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">Museum</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="23">Museum</governor>
+            <dependent idx="20">Hiroshima</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="23">Museum</governor>
+            <dependent idx="21">Peace</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="23">Museum</governor>
+            <dependent idx="22">Memorial</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="10">paid</governor>
+            <dependent idx="23">Museum</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">paid</governor>
+            <dependent idx="24">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">paid</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="10">paid</governor>
+            <dependent idx="1">Accompanied</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Abe</governor>
+            <dependent idx="2">by</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">Abe</governor>
+            <dependent idx="3">Japanese</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Abe</governor>
+            <dependent idx="4">Prime</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Abe</governor>
+            <dependent idx="5">Minister</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Abe</governor>
+            <dependent idx="6">Shinzo</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="1">Accompanied</governor>
+            <dependent idx="7">Abe</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">paid</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">paid</governor>
+            <dependent idx="9">Obama</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">paid</governor>
+            <dependent idx="11">tribute</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">victims</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">victims</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="10">paid</governor>
+            <dependent idx="14">victims</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">bombing</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">bombing</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="14">victims</governor>
+            <dependent idx="17">bombing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="23">Museum</governor>
+            <dependent idx="18">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">Museum</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="23">Museum</governor>
+            <dependent idx="20">Hiroshima</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="23">Museum</governor>
+            <dependent idx="21">Peace</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="23">Museum</governor>
+            <dependent idx="22">Memorial</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="10">paid</governor>
+            <dependent idx="23">Museum</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">paid</governor>
+            <dependent idx="24">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>11</start>
+          <end>20</end>
+          <head>13</head>
+          <text>the atomic bombing of Hiroshima by America , Obama</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>16</start>
+          <end>18</end>
+          <head>17</head>
+          <text>the bombing</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>15</start>
+          <end>20</end>
+          <head>15</head>
+          <text>Hiroshima by America , Obama</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>28</start>
+          <end>29</end>
+          <head>28</head>
+          <text>Hiroshima</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>17</start>
+          <end>20</end>
+          <head>19</head>
+          <text>America , Obama</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>9</start>
+          <end>10</end>
+          <head>9</head>
+          <text>Obama</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

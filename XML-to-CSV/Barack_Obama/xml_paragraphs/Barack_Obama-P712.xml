@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>2017-02-02</word>
+            <lemma>2017-02-02</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>TIME</NER>
+            <NormalizedNER>2017-02-02T19:31</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="TIME">2017-02-02T19:31</Timex>
+          </token>
+          <token id="2">
+            <word>19:31</word>
+            <lemma>19:31</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>TIME</NER>
+            <NormalizedNER>2017-02-02T19:31</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="TIME">2017-02-02T19:31</Timex>
+          </token>
+        </tokens>
+        <parse>(ROOT (ADJP (JJ 2017-02-02) (NP-TMP (CD 19:31)))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">2017-02-02</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="1">2017-02-02</governor>
+            <dependent idx="2">19:31</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">2017-02-02</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="1">2017-02-02</governor>
+            <dependent idx="2">19:31</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">2017-02-02</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="1">2017-02-02</governor>
+            <dependent idx="2">19:31</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

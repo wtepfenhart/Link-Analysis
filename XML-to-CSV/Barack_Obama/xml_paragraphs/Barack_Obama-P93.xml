@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>By</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2014</Timex>
+          </token>
+          <token id="3">
+            <word>end</word>
+            <lemma>end</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2014</Timex>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2014</Timex>
+          </token>
+          <token id="5">
+            <word>2014</word>
+            <lemma>2014</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2014</Timex>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>3,100</word>
+            <lemma>3,100</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>3100.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>American</word>
+            <lemma>american</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>ground</word>
+            <lemma>ground</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>troops</word>
+            <lemma>troops</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>were</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>committed</word>
+            <lemma>commit</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>conflict</word>
+            <lemma>conflict</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>16,000</word>
+            <lemma>16,000</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>16000.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>sorties</word>
+            <lemma>sortie</lemma>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>were</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>flown</word>
+            <lemma>fly</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>over</word>
+            <lemma>over</lemma>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>battlefield</word>
+            <lemma>battlefield</lemma>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>primarily</word>
+            <lemma>primarily</lemma>
+            <CharacterOffsetBegin>132</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>142</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="27">
+            <word>U.S.</word>
+            <lemma>U.S.</lemma>
+            <CharacterOffsetBegin>145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="28">
+            <word>Air</word>
+            <lemma>Air</lemma>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>153</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="29">
+            <word>Force</word>
+            <lemma>Force</lemma>
+            <CharacterOffsetBegin>154</CharacterOffsetBegin>
+            <CharacterOffsetEnd>159</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="30">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>160</CharacterOffsetBegin>
+            <CharacterOffsetEnd>163</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="31">
+            <word>Navy</word>
+            <lemma>Navy</lemma>
+            <CharacterOffsetBegin>164</CharacterOffsetBegin>
+            <CharacterOffsetEnd>168</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="32">
+            <word>pilots</word>
+            <lemma>pilot</lemma>
+            <CharacterOffsetBegin>169</CharacterOffsetBegin>
+            <CharacterOffsetEnd>175</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="33">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>175</CharacterOffsetBegin>
+            <CharacterOffsetEnd>176</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN By) (NP (NP (DT the) (NN end)) (PP (IN of) (NP (CD 2014))))) (, ,) (S (NP (CD 3,100) (JJ American) (NN ground) (NNS troops)) (VP (VBD were) (VP (VBN committed) (PP (TO to) (NP (DT the) (NN conflict)))))) (CC and) (S (NP (CD 16,000) (NNS sorties)) (VP (VBD were) (VP (VBN flown) (PP (PP (IN over) (NP (DT the) (NN battlefield))) (, ,) (RB primarily) (PP (IN by) (NP (NNP U.S.) (NNP Air) (NNP Force) (CC and) (NNP Navy) (NNS pilots))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">committed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">end</governor>
+            <dependent idx="1">By</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">end</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="12">committed</governor>
+            <dependent idx="3">end</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">2014</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">end</governor>
+            <dependent idx="5">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="12">committed</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="10">troops</governor>
+            <dependent idx="7">3,100</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">troops</governor>
+            <dependent idx="8">American</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">troops</governor>
+            <dependent idx="9">ground</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">committed</governor>
+            <dependent idx="10">troops</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">committed</governor>
+            <dependent idx="11">were</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">conflict</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">conflict</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="12">committed</governor>
+            <dependent idx="15">conflict</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">committed</governor>
+            <dependent idx="16">and</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="18">sorties</governor>
+            <dependent idx="17">16,000</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="20">flown</governor>
+            <dependent idx="18">sorties</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="20">flown</governor>
+            <dependent idx="19">were</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="12">committed</governor>
+            <dependent idx="20">flown</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="23">battlefield</governor>
+            <dependent idx="21">over</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">battlefield</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="20">flown</governor>
+            <dependent idx="23">battlefield</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="23">battlefield</governor>
+            <dependent idx="24">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="23">battlefield</governor>
+            <dependent idx="25">primarily</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="29">Force</governor>
+            <dependent idx="26">by</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="29">Force</governor>
+            <dependent idx="27">U.S.</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="29">Force</governor>
+            <dependent idx="28">Air</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="23">battlefield</governor>
+            <dependent idx="29">Force</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="29">Force</governor>
+            <dependent idx="30">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="32">pilots</governor>
+            <dependent idx="31">Navy</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="29">Force</governor>
+            <dependent idx="32">pilots</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="12">committed</governor>
+            <dependent idx="33">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">committed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">end</governor>
+            <dependent idx="1">By</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">end</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="12">committed</governor>
+            <dependent idx="3">end</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">2014</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">end</governor>
+            <dependent idx="5">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="12">committed</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="10">troops</governor>
+            <dependent idx="7">3,100</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">troops</governor>
+            <dependent idx="8">American</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">troops</governor>
+            <dependent idx="9">ground</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">committed</governor>
+            <dependent idx="10">troops</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">committed</governor>
+            <dependent idx="11">were</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">conflict</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">conflict</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="12">committed</governor>
+            <dependent idx="15">conflict</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">committed</governor>
+            <dependent idx="16">and</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="18">sorties</governor>
+            <dependent idx="17">16,000</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="20">flown</governor>
+            <dependent idx="18">sorties</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="20">flown</governor>
+            <dependent idx="19">were</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="12">committed</governor>
+            <dependent idx="20">flown</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="23">battlefield</governor>
+            <dependent idx="21">over</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">battlefield</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="advcl:over">
+            <governor idx="20">flown</governor>
+            <dependent idx="23">battlefield</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="23">battlefield</governor>
+            <dependent idx="24">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="23">battlefield</governor>
+            <dependent idx="25">primarily</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="29">Force</governor>
+            <dependent idx="26">by</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="29">Force</governor>
+            <dependent idx="27">U.S.</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="29">Force</governor>
+            <dependent idx="28">Air</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="23">battlefield</governor>
+            <dependent idx="29">Force</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="29">Force</governor>
+            <dependent idx="30">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="32">pilots</governor>
+            <dependent idx="31">Navy</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="29">Force</governor>
+            <dependent idx="32">pilots</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="12">committed</governor>
+            <dependent idx="33">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">committed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">end</governor>
+            <dependent idx="1">By</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">end</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="12">committed</governor>
+            <dependent idx="3">end</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">2014</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">end</governor>
+            <dependent idx="5">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="12">committed</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="10">troops</governor>
+            <dependent idx="7">3,100</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">troops</governor>
+            <dependent idx="8">American</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">troops</governor>
+            <dependent idx="9">ground</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">committed</governor>
+            <dependent idx="10">troops</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">committed</governor>
+            <dependent idx="11">were</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">conflict</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">conflict</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="12">committed</governor>
+            <dependent idx="15">conflict</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">committed</governor>
+            <dependent idx="16">and</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="18">sorties</governor>
+            <dependent idx="17">16,000</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="20">flown</governor>
+            <dependent idx="18">sorties</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="20">flown</governor>
+            <dependent idx="19">were</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="12">committed</governor>
+            <dependent idx="20">flown</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="23">battlefield</governor>
+            <dependent idx="21">over</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">battlefield</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="advcl:over">
+            <governor idx="20">flown</governor>
+            <dependent idx="23">battlefield</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="23">battlefield</governor>
+            <dependent idx="24">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="23">battlefield</governor>
+            <dependent idx="25">primarily</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="29">Force</governor>
+            <dependent idx="26">by</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="29">Force</governor>
+            <dependent idx="27">U.S.</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="29">Force</governor>
+            <dependent idx="28">Air</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="23">battlefield</governor>
+            <dependent idx="29">Force</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="29">Force</governor>
+            <dependent idx="30">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="32">pilots</governor>
+            <dependent idx="31">Navy</dependent>
+          </dep>
+          <dep type="nmod:by" extra="true">
+            <governor idx="23">battlefield</governor>
+            <dependent idx="32">pilots</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="29">Force</governor>
+            <dependent idx="32">pilots</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="12">committed</governor>
+            <dependent idx="33">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

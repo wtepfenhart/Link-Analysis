@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>^</word>
+            <lemma>^</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Irene</word>
+            <lemma>Irene</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Chapple</word>
+            <lemma>Chapple</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>``</word>
+            <lemma>``</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>``</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>OECD</word>
+            <lemma>OECD</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="7">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="8">
+            <word>U.S.</word>
+            <lemma>U.S.</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="9">
+            <word>will</word>
+            <lemma>will</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="10">
+            <word>recover</word>
+            <lemma>recover</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="11">
+            <word>faster</word>
+            <lemma>faster</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>RBR</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="13">
+            <word>Europe</word>
+            <lemma>Europe</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="14">
+            <word>faces</word>
+            <lemma>face</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="15">
+            <word>unemployment</word>
+            <lemma>unemployment</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="16">
+            <word>crisis</word>
+            <lemma>crisis</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="17">
+            <word>''</word>
+            <lemma>''</lemma>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>''</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>CNN</word>
+            <lemma>CNN</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>May</word>
+            <lemma>May</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2013-05-29</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2013-05-29</Timex>
+          </token>
+          <token id="22">
+            <word>29</word>
+            <lemma>29</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2013-05-29</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2013-05-29</Timex>
+          </token>
+          <token id="23">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2013-05-29</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2013-05-29</Timex>
+          </token>
+          <token id="24">
+            <word>2013</word>
+            <lemma>2013</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2013-05-29</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2013-05-29</Timex>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (NP (NP (NNP ^) (NNP Irene) (NNP Chapple)) (, ,) (NP (`` ``) (NP (NNP OECD)) (: :) (NP (NP (NP (NNP U.S.)) (SBAR (S (VP (MD will) (VP (VB recover) (S (ADVP (RBR faster)) (, ,) (NP (NNP Europe)) (VP (VBZ faces) (NP (NN unemployment) (NN crisis))) ('' ''))))))) (, ,) (NP (NNP CNN) (, ,) (NNP May) (CD 29) (, ,) (CD 2013))))))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Chapple</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Chapple</governor>
+            <dependent idx="1">^</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Chapple</governor>
+            <dependent idx="2">Irene</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Chapple</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">OECD</governor>
+            <dependent idx="5">``</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Chapple</governor>
+            <dependent idx="6">OECD</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">OECD</governor>
+            <dependent idx="7">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">OECD</governor>
+            <dependent idx="8">U.S.</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">recover</governor>
+            <dependent idx="9">will</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="8">U.S.</governor>
+            <dependent idx="10">recover</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">faces</governor>
+            <dependent idx="11">faster</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">faces</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">faces</governor>
+            <dependent idx="13">Europe</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="10">recover</governor>
+            <dependent idx="14">faces</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">crisis</governor>
+            <dependent idx="15">unemployment</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">faces</governor>
+            <dependent idx="16">crisis</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">faces</governor>
+            <dependent idx="17">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">U.S.</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">May</governor>
+            <dependent idx="19">CNN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="21">May</governor>
+            <dependent idx="20">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="8">U.S.</governor>
+            <dependent idx="21">May</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="21">May</governor>
+            <dependent idx="22">29</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="21">May</governor>
+            <dependent idx="23">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="21">May</governor>
+            <dependent idx="24">2013</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Chapple</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Chapple</governor>
+            <dependent idx="1">^</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Chapple</governor>
+            <dependent idx="2">Irene</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Chapple</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">OECD</governor>
+            <dependent idx="5">``</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Chapple</governor>
+            <dependent idx="6">OECD</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">OECD</governor>
+            <dependent idx="7">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">OECD</governor>
+            <dependent idx="8">U.S.</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">recover</governor>
+            <dependent idx="9">will</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="8">U.S.</governor>
+            <dependent idx="10">recover</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">faces</governor>
+            <dependent idx="11">faster</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">faces</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">faces</governor>
+            <dependent idx="13">Europe</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="10">recover</governor>
+            <dependent idx="14">faces</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">crisis</governor>
+            <dependent idx="15">unemployment</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">faces</governor>
+            <dependent idx="16">crisis</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">faces</governor>
+            <dependent idx="17">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">U.S.</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">May</governor>
+            <dependent idx="19">CNN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="21">May</governor>
+            <dependent idx="20">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="8">U.S.</governor>
+            <dependent idx="21">May</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="21">May</governor>
+            <dependent idx="22">29</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="21">May</governor>
+            <dependent idx="23">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="21">May</governor>
+            <dependent idx="24">2013</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Chapple</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Chapple</governor>
+            <dependent idx="1">^</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Chapple</governor>
+            <dependent idx="2">Irene</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Chapple</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">OECD</governor>
+            <dependent idx="5">``</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Chapple</governor>
+            <dependent idx="6">OECD</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">OECD</governor>
+            <dependent idx="7">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">OECD</governor>
+            <dependent idx="8">U.S.</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">recover</governor>
+            <dependent idx="9">will</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="8">U.S.</governor>
+            <dependent idx="10">recover</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">faces</governor>
+            <dependent idx="11">faster</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">faces</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">faces</governor>
+            <dependent idx="13">Europe</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="10">recover</governor>
+            <dependent idx="14">faces</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">crisis</governor>
+            <dependent idx="15">unemployment</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">faces</governor>
+            <dependent idx="16">crisis</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">faces</governor>
+            <dependent idx="17">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">U.S.</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">May</governor>
+            <dependent idx="19">CNN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="21">May</governor>
+            <dependent idx="20">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="8">U.S.</governor>
+            <dependent idx="21">May</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="21">May</governor>
+            <dependent idx="22">29</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="21">May</governor>
+            <dependent idx="23">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="21">May</governor>
+            <dependent idx="24">2013</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>^</word>
+            <lemma>^</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Scott</word>
+            <lemma>Scott</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>2011</word>
+            <lemma>2011</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2011</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2011</Timex>
+          </token>
+          <token id="5">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>pp.</word>
+            <lemma>pp.</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>139</word>
+            <lemma>139</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>139.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>--</word>
+            <lemma>--</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>157</word>
+            <lemma>157</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>157.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NNP ^) (NNP Scott)) (PRN (-LRB- -LRB-) (NP (CD 2011)) (-RRB- -RRB-)) (, ,) (NP (NN pp.) (CD 139))) (: --) (NP (CD 157)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Scott</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Scott</governor>
+            <dependent idx="1">^</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">2011</governor>
+            <dependent idx="3">-LRB-</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Scott</governor>
+            <dependent idx="4">2011</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">2011</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Scott</governor>
+            <dependent idx="7">pp.</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">pp.</governor>
+            <dependent idx="8">139</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="9">--</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Scott</governor>
+            <dependent idx="10">157</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Scott</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Scott</governor>
+            <dependent idx="1">^</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">2011</governor>
+            <dependent idx="3">-LRB-</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Scott</governor>
+            <dependent idx="4">2011</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">2011</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Scott</governor>
+            <dependent idx="7">pp.</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">pp.</governor>
+            <dependent idx="8">139</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="9">--</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Scott</governor>
+            <dependent idx="10">157</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Scott</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Scott</governor>
+            <dependent idx="1">^</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">2011</governor>
+            <dependent idx="3">-LRB-</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Scott</governor>
+            <dependent idx="4">2011</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">2011</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Scott</governor>
+            <dependent idx="7">pp.</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">pp.</governor>
+            <dependent idx="8">139</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="9">--</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Scott</governor>
+            <dependent idx="10">157</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Maraniss</word>
+            <lemma>Maraniss</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>2012</word>
+            <lemma>2012</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2012</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DATE">2012</Timex>
+          </token>
+          <token id="4">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>pp.</word>
+            <lemma>pp.</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>279</word>
+            <lemma>279</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>279.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>--</word>
+            <lemma>--</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>281</word>
+            <lemma>281</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>281.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NNP Maraniss)) (PRN (-LRB- -LRB-) (NP (CD 2012)) (-RRB- -RRB-)) (, ,) (NP (NN pp.) (CD 279))) (: --) (NP (CD 281)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Maraniss</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">2012</governor>
+            <dependent idx="2">-LRB-</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="3">2012</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">2012</governor>
+            <dependent idx="4">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="6">pp.</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="6">pp.</governor>
+            <dependent idx="7">279</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="8">--</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="9">281</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Maraniss</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">2012</governor>
+            <dependent idx="2">-LRB-</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="3">2012</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">2012</governor>
+            <dependent idx="4">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="6">pp.</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="6">pp.</governor>
+            <dependent idx="7">279</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="8">--</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="9">281</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Maraniss</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">2012</governor>
+            <dependent idx="2">-LRB-</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="3">2012</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">2012</governor>
+            <dependent idx="4">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="6">pp.</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="6">pp.</governor>
+            <dependent idx="7">279</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="8">--</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="9">281</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Maraniss</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

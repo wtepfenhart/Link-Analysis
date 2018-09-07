@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Works</word>
+            <lemma>Works</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>or</word>
+            <lemma>or</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>about</word>
+            <lemma>about</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Barack</word>
+            <lemma>Barack</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Obama</word>
+            <lemma>Obama</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Internet</word>
+            <lemma>Internet</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Archive</word>
+            <lemma>Archive</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNP Works)) (PP (IN by) (CC or) (IN about) (NP (NP (NNP Barack) (NNP Obama)) (PP (IN at) (NP (NNP Internet) (NNP Archive))))))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Works</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Obama</governor>
+            <dependent idx="2">by</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">by</governor>
+            <dependent idx="3">or</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">by</governor>
+            <dependent idx="4">about</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Obama</governor>
+            <dependent idx="5">Barack</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Works</governor>
+            <dependent idx="6">Obama</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Archive</governor>
+            <dependent idx="7">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Archive</governor>
+            <dependent idx="8">Internet</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="6">Obama</governor>
+            <dependent idx="9">Archive</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Works</dependent>
+          </dep>
+          <dep type="conj:or">
+            <governor idx="1">Works</governor>
+            <dependent idx="1" copy="1">Works</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Obama</governor>
+            <dependent idx="2">by</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">by</governor>
+            <dependent idx="3">or</dependent>
+          </dep>
+          <dep type="conj:or">
+            <governor idx="2">by</governor>
+            <dependent idx="4">about</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Obama</governor>
+            <dependent idx="5">Barack</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="1">Works</governor>
+            <dependent idx="6">Obama</dependent>
+          </dep>
+          <dep type="nmod:about" extra="true">
+            <governor idx="1" copy="1">Works</governor>
+            <dependent idx="6">Obama</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Archive</governor>
+            <dependent idx="7">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Archive</governor>
+            <dependent idx="8">Internet</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="6">Obama</governor>
+            <dependent idx="9">Archive</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Works</dependent>
+          </dep>
+          <dep type="conj:or">
+            <governor idx="1">Works</governor>
+            <dependent idx="1" copy="1">Works</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Obama</governor>
+            <dependent idx="2">by</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">by</governor>
+            <dependent idx="3">or</dependent>
+          </dep>
+          <dep type="conj:or">
+            <governor idx="2">by</governor>
+            <dependent idx="4">about</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Obama</governor>
+            <dependent idx="5">Barack</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="1">Works</governor>
+            <dependent idx="6">Obama</dependent>
+          </dep>
+          <dep type="nmod:about" extra="true">
+            <governor idx="1" copy="1">Works</governor>
+            <dependent idx="6">Obama</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Archive</governor>
+            <dependent idx="7">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Archive</governor>
+            <dependent idx="8">Internet</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="6">Obama</governor>
+            <dependent idx="9">Archive</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

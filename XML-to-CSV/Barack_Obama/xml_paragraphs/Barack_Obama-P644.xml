@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Obama</word>
+            <lemma>Obama</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Saya</word>
+            <lemma>Saya</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Kangen</word>
+            <lemma>Kangen</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Nasi</word>
+            <lemma>Nasi</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Goreng</word>
+            <lemma>Goreng</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Bakso</word>
+            <lemma>Bakso</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>dan</word>
+            <lemma>dan</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Rambutan</word>
+            <lemma>Rambutan</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNP Obama)) (: :) (NP (NNP Saya) (NNP Kangen) (NNP Nasi) (NNP Goreng) (, ,) (NNP Bakso) (, ,) (NNP dan) (NNP Rambutan)))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Obama</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Obama</governor>
+            <dependent idx="2">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="3">Saya</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="4">Kangen</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="5">Nasi</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="6">Goreng</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="8">Bakso</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="10">dan</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Obama</governor>
+            <dependent idx="11">Rambutan</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Obama</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Obama</governor>
+            <dependent idx="2">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="3">Saya</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="4">Kangen</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="5">Nasi</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="6">Goreng</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="8">Bakso</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="10">dan</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Obama</governor>
+            <dependent idx="11">Rambutan</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Obama</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Obama</governor>
+            <dependent idx="2">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="3">Saya</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="4">Kangen</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="5">Nasi</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="6">Goreng</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="8">Bakso</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="11">Rambutan</governor>
+            <dependent idx="10">dan</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Obama</governor>
+            <dependent idx="11">Rambutan</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

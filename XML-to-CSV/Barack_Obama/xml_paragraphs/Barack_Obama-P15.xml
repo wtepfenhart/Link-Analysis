@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Chicago</word>
+            <lemma>Chicago</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Law</word>
+            <lemma>Law</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>School</word>
+            <lemma>School</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>civil</word>
+            <lemma>civil</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>rights</word>
+            <lemma>rights</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>attorney</word>
+            <lemma>attorney</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNP Chicago) (NNP Law) (NNP School)) (CC and) (NP (JJ civil) (NNS rights) (NN attorney)))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">School</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">School</governor>
+            <dependent idx="1">Chicago</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">School</governor>
+            <dependent idx="2">Law</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">School</governor>
+            <dependent idx="4">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">attorney</governor>
+            <dependent idx="5">civil</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">attorney</governor>
+            <dependent idx="6">rights</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">School</governor>
+            <dependent idx="7">attorney</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">School</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">School</governor>
+            <dependent idx="1">Chicago</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">School</governor>
+            <dependent idx="2">Law</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">School</governor>
+            <dependent idx="4">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">attorney</governor>
+            <dependent idx="5">civil</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">attorney</governor>
+            <dependent idx="6">rights</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="3">School</governor>
+            <dependent idx="7">attorney</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">School</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">School</governor>
+            <dependent idx="1">Chicago</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">School</governor>
+            <dependent idx="2">Law</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">School</governor>
+            <dependent idx="4">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">attorney</governor>
+            <dependent idx="5">civil</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">attorney</governor>
+            <dependent idx="6">rights</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="3">School</governor>
+            <dependent idx="7">attorney</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

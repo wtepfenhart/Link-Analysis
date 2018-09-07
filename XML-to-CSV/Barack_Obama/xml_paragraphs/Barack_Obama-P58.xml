@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>On</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>December</word>
+            <lemma>December</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2010-12-22</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2010-12-22</Timex>
+          </token>
+          <token id="3">
+            <word>22</word>
+            <lemma>22</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2010-12-22</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2010-12-22</Timex>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2010-12-22</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2010-12-22</Timex>
+          </token>
+          <token id="5">
+            <word>2010</word>
+            <lemma>2010</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2010-12-22</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2010-12-22</Timex>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Obama</word>
+            <lemma>Obama</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>signed</word>
+            <lemma>sign</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Do</word>
+            <lemma>do</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>n't</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Ask</word>
+            <lemma>ask</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>Do</word>
+            <lemma>do</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>n't</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>Tell</word>
+            <lemma>tell</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>Repeal</word>
+            <lemma>repeal</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>Act</word>
+            <lemma>act</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>2010</word>
+            <lemma>2010</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2010</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DATE">2010</Timex>
+          </token>
+          <token id="21">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>fulfilling</word>
+            <lemma>fulfil</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>key</word>
+            <lemma>key</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>promise</word>
+            <lemma>promise</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>made</word>
+            <lemma>make</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="27">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="28">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="29">
+            <word>2008</word>
+            <lemma>2008</lemma>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2008</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t3" type="DATE">2008</Timex>
+          </token>
+          <token id="30">
+            <word>presidential</word>
+            <lemma>presidential</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>135</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="31">
+            <word>campaign</word>
+            <lemma>campaign</lemma>
+            <CharacterOffsetBegin>136</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="32">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="33">
+            <word>end</word>
+            <lemma>end</lemma>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>151</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="34">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>152</CharacterOffsetBegin>
+            <CharacterOffsetEnd>155</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="35">
+            <word>Do</word>
+            <lemma>do</lemma>
+            <CharacterOffsetBegin>156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>158</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="36">
+            <word>n't</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>158</CharacterOffsetBegin>
+            <CharacterOffsetEnd>161</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="37">
+            <word>ask</word>
+            <lemma>ask</lemma>
+            <CharacterOffsetBegin>162</CharacterOffsetBegin>
+            <CharacterOffsetEnd>165</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="38">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>165</CharacterOffsetBegin>
+            <CharacterOffsetEnd>166</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="39">
+            <word>do</word>
+            <lemma>do</lemma>
+            <CharacterOffsetBegin>167</CharacterOffsetBegin>
+            <CharacterOffsetEnd>169</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="40">
+            <word>n't</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>169</CharacterOffsetBegin>
+            <CharacterOffsetEnd>172</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="41">
+            <word>tell</word>
+            <lemma>tell</lemma>
+            <CharacterOffsetBegin>173</CharacterOffsetBegin>
+            <CharacterOffsetEnd>177</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="42">
+            <word>policy</word>
+            <lemma>policy</lemma>
+            <CharacterOffsetBegin>178</CharacterOffsetBegin>
+            <CharacterOffsetEnd>184</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="43">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>185</CharacterOffsetBegin>
+            <CharacterOffsetEnd>187</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="44">
+            <word>1993</word>
+            <lemma>1993</lemma>
+            <CharacterOffsetBegin>188</CharacterOffsetBegin>
+            <CharacterOffsetEnd>192</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>1993</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t4" type="DATE">1993</Timex>
+          </token>
+          <token id="45">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>193</CharacterOffsetBegin>
+            <CharacterOffsetEnd>197</CharacterOffsetEnd>
+            <POS>WDT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="46">
+            <word>had</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>198</CharacterOffsetBegin>
+            <CharacterOffsetEnd>201</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="47">
+            <word>prevented</word>
+            <lemma>prevent</lemma>
+            <CharacterOffsetBegin>202</CharacterOffsetBegin>
+            <CharacterOffsetEnd>211</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="48">
+            <word>gay</word>
+            <lemma>gay</lemma>
+            <CharacterOffsetBegin>212</CharacterOffsetBegin>
+            <CharacterOffsetEnd>215</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="49">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>216</CharacterOffsetBegin>
+            <CharacterOffsetEnd>219</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="50">
+            <word>lesbian</word>
+            <lemma>lesbian</lemma>
+            <CharacterOffsetBegin>220</CharacterOffsetBegin>
+            <CharacterOffsetEnd>227</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="51">
+            <word>people</word>
+            <lemma>people</lemma>
+            <CharacterOffsetBegin>228</CharacterOffsetBegin>
+            <CharacterOffsetEnd>234</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="52">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>235</CharacterOffsetBegin>
+            <CharacterOffsetEnd>239</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="53">
+            <word>serving</word>
+            <lemma>serve</lemma>
+            <CharacterOffsetBegin>240</CharacterOffsetBegin>
+            <CharacterOffsetEnd>247</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="54">
+            <word>openly</word>
+            <lemma>openly</lemma>
+            <CharacterOffsetBegin>248</CharacterOffsetBegin>
+            <CharacterOffsetEnd>254</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="55">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>255</CharacterOffsetBegin>
+            <CharacterOffsetEnd>257</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="56">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>258</CharacterOffsetBegin>
+            <CharacterOffsetEnd>261</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="57">
+            <word>United</word>
+            <lemma>United</lemma>
+            <CharacterOffsetBegin>262</CharacterOffsetBegin>
+            <CharacterOffsetEnd>268</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="58">
+            <word>States</word>
+            <lemma>States</lemma>
+            <CharacterOffsetBegin>269</CharacterOffsetBegin>
+            <CharacterOffsetEnd>275</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="59">
+            <word>Armed</word>
+            <lemma>Armed</lemma>
+            <CharacterOffsetBegin>276</CharacterOffsetBegin>
+            <CharacterOffsetEnd>281</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="60">
+            <word>Forces</word>
+            <lemma>Forces</lemma>
+            <CharacterOffsetBegin>282</CharacterOffsetBegin>
+            <CharacterOffsetEnd>288</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="61">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>288</CharacterOffsetBegin>
+            <CharacterOffsetEnd>289</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN On) (NP (NNP December) (CD 22) (, ,) (CD 2010))) (, ,) (NP (NNP Obama)) (VP (VP (VBD signed) (SBAR (S (NP (DT the)) (VP (VBP Do) (RB n't) (VP (VB Ask)))))) (, ,) (VP (VBP Do) (RB n't) (VP (VB Tell) (NP (NP (NN Repeal) (NN Act)) (PP (IN of) (NP (CD 2010)))) (, ,) (S (VP (VBG fulfilling) (NP (NP (DT a) (JJ key) (NN promise)) (VP (VBN made) (PP (IN in) (NP (DT the) (CD 2008) (JJ presidential) (NN campaign))) (S (VP (TO to) (VP (VB end) (SBAR (S (NP (DT the)) (VP (VBP Do) (RB n't) (VP (VB ask)))))))))))))) (, ,) (VP (VBP do) (RB n't) (VP (VB tell) (NP (NP (NN policy)) (PP (IN of) (NP (CD 1993))) (SBAR (WHNP (WDT that)) (S (VP (VBD had) (VP (VBN prevented) (NP (JJ gay) (CC and) (JJ lesbian) (NNS people)) (PP (IN from) (S (VP (VBG serving) (ADVP (RB openly)) (PP (IN in) (NP (DT the) (NNP United) (NNPS States) (NNP Armed) (NNP Forces)))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">signed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">December</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">signed</governor>
+            <dependent idx="2">December</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">December</governor>
+            <dependent idx="3">22</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">December</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">December</governor>
+            <dependent idx="5">2010</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">signed</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">signed</governor>
+            <dependent idx="7">Obama</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">Ask</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">Ask</governor>
+            <dependent idx="10">Do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="12">Ask</governor>
+            <dependent idx="11">n't</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="8">signed</governor>
+            <dependent idx="12">Ask</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">signed</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">Tell</governor>
+            <dependent idx="14">Do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="16">Tell</governor>
+            <dependent idx="15">n't</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">signed</governor>
+            <dependent idx="16">Tell</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="18">Act</governor>
+            <dependent idx="17">Repeal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">Tell</governor>
+            <dependent idx="18">Act</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">2010</governor>
+            <dependent idx="19">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="18">Act</governor>
+            <dependent idx="20">2010</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">Tell</governor>
+            <dependent idx="21">,</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="16">Tell</governor>
+            <dependent idx="22">fulfilling</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">promise</governor>
+            <dependent idx="23">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">promise</governor>
+            <dependent idx="24">key</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">fulfilling</governor>
+            <dependent idx="25">promise</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="25">promise</governor>
+            <dependent idx="26">made</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="31">campaign</governor>
+            <dependent idx="27">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="31">campaign</governor>
+            <dependent idx="28">the</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="31">campaign</governor>
+            <dependent idx="29">2008</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="31">campaign</governor>
+            <dependent idx="30">presidential</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="26">made</governor>
+            <dependent idx="31">campaign</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="33">end</governor>
+            <dependent idx="32">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="26">made</governor>
+            <dependent idx="33">end</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="37">ask</governor>
+            <dependent idx="34">the</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="37">ask</governor>
+            <dependent idx="35">Do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="37">ask</governor>
+            <dependent idx="36">n't</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="33">end</governor>
+            <dependent idx="37">ask</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">signed</governor>
+            <dependent idx="38">,</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="41">tell</governor>
+            <dependent idx="39">do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="41">tell</governor>
+            <dependent idx="40">n't</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">signed</governor>
+            <dependent idx="41">tell</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="41">tell</governor>
+            <dependent idx="42">policy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="44">1993</governor>
+            <dependent idx="43">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="42">policy</governor>
+            <dependent idx="44">1993</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="47">prevented</governor>
+            <dependent idx="45">that</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="47">prevented</governor>
+            <dependent idx="46">had</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="42">policy</governor>
+            <dependent idx="47">prevented</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="51">people</governor>
+            <dependent idx="48">gay</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="48">gay</governor>
+            <dependent idx="49">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="48">gay</governor>
+            <dependent idx="50">lesbian</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="47">prevented</governor>
+            <dependent idx="51">people</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="53">serving</governor>
+            <dependent idx="52">from</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="47">prevented</governor>
+            <dependent idx="53">serving</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="53">serving</governor>
+            <dependent idx="54">openly</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="60">Forces</governor>
+            <dependent idx="55">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="60">Forces</governor>
+            <dependent idx="56">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="60">Forces</governor>
+            <dependent idx="57">United</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="60">Forces</governor>
+            <dependent idx="58">States</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="60">Forces</governor>
+            <dependent idx="59">Armed</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="53">serving</governor>
+            <dependent idx="60">Forces</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">signed</governor>
+            <dependent idx="61">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">signed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">December</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="8">signed</governor>
+            <dependent idx="2">December</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">December</governor>
+            <dependent idx="3">22</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">December</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">December</governor>
+            <dependent idx="5">2010</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">signed</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">signed</governor>
+            <dependent idx="7">Obama</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">Ask</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">Ask</governor>
+            <dependent idx="10">Do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="12">Ask</governor>
+            <dependent idx="11">n't</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="8">signed</governor>
+            <dependent idx="12">Ask</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">signed</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">Tell</governor>
+            <dependent idx="14">Do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="16">Tell</governor>
+            <dependent idx="15">n't</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">signed</governor>
+            <dependent idx="16">Tell</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="18">Act</governor>
+            <dependent idx="17">Repeal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">Tell</governor>
+            <dependent idx="18">Act</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">2010</governor>
+            <dependent idx="19">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="18">Act</governor>
+            <dependent idx="20">2010</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">Tell</governor>
+            <dependent idx="21">,</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="16">Tell</governor>
+            <dependent idx="22">fulfilling</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">promise</governor>
+            <dependent idx="23">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">promise</governor>
+            <dependent idx="24">key</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">fulfilling</governor>
+            <dependent idx="25">promise</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="25">promise</governor>
+            <dependent idx="26">made</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="31">campaign</governor>
+            <dependent idx="27">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="31">campaign</governor>
+            <dependent idx="28">the</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="31">campaign</governor>
+            <dependent idx="29">2008</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="31">campaign</governor>
+            <dependent idx="30">presidential</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="26">made</governor>
+            <dependent idx="31">campaign</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="33">end</governor>
+            <dependent idx="32">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="26">made</governor>
+            <dependent idx="33">end</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="37">ask</governor>
+            <dependent idx="34">the</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="37">ask</governor>
+            <dependent idx="35">Do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="37">ask</governor>
+            <dependent idx="36">n't</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="33">end</governor>
+            <dependent idx="37">ask</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">signed</governor>
+            <dependent idx="38">,</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="41">tell</governor>
+            <dependent idx="39">do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="41">tell</governor>
+            <dependent idx="40">n't</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">signed</governor>
+            <dependent idx="41">tell</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="41">tell</governor>
+            <dependent idx="42">policy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="44">1993</governor>
+            <dependent idx="43">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="42">policy</governor>
+            <dependent idx="44">1993</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="47">prevented</governor>
+            <dependent idx="45">that</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="47">prevented</governor>
+            <dependent idx="46">had</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="42">policy</governor>
+            <dependent idx="47">prevented</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="51">people</governor>
+            <dependent idx="48">gay</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="48">gay</governor>
+            <dependent idx="49">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="48">gay</governor>
+            <dependent idx="50">lesbian</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="47">prevented</governor>
+            <dependent idx="51">people</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="53">serving</governor>
+            <dependent idx="52">from</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="47">prevented</governor>
+            <dependent idx="53">serving</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="53">serving</governor>
+            <dependent idx="54">openly</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="60">Forces</governor>
+            <dependent idx="55">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="60">Forces</governor>
+            <dependent idx="56">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="60">Forces</governor>
+            <dependent idx="57">United</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="60">Forces</governor>
+            <dependent idx="58">States</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="60">Forces</governor>
+            <dependent idx="59">Armed</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="53">serving</governor>
+            <dependent idx="60">Forces</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">signed</governor>
+            <dependent idx="61">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">signed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">December</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="8">signed</governor>
+            <dependent idx="2">December</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">December</governor>
+            <dependent idx="3">22</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">December</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">December</governor>
+            <dependent idx="5">2010</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">signed</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">signed</governor>
+            <dependent idx="7">Obama</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">Ask</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">Ask</governor>
+            <dependent idx="10">Do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="12">Ask</governor>
+            <dependent idx="11">n't</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="8">signed</governor>
+            <dependent idx="12">Ask</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">signed</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">Tell</governor>
+            <dependent idx="14">Do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="16">Tell</governor>
+            <dependent idx="15">n't</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">signed</governor>
+            <dependent idx="16">Tell</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="18">Act</governor>
+            <dependent idx="17">Repeal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">Tell</governor>
+            <dependent idx="18">Act</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">2010</governor>
+            <dependent idx="19">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="18">Act</governor>
+            <dependent idx="20">2010</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">Tell</governor>
+            <dependent idx="21">,</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="16">Tell</governor>
+            <dependent idx="22">fulfilling</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">promise</governor>
+            <dependent idx="23">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">promise</governor>
+            <dependent idx="24">key</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">fulfilling</governor>
+            <dependent idx="25">promise</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="25">promise</governor>
+            <dependent idx="26">made</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="31">campaign</governor>
+            <dependent idx="27">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="31">campaign</governor>
+            <dependent idx="28">the</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="31">campaign</governor>
+            <dependent idx="29">2008</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="31">campaign</governor>
+            <dependent idx="30">presidential</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="26">made</governor>
+            <dependent idx="31">campaign</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="33">end</governor>
+            <dependent idx="32">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="26">made</governor>
+            <dependent idx="33">end</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="37">ask</governor>
+            <dependent idx="34">the</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="37">ask</governor>
+            <dependent idx="35">Do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="37">ask</governor>
+            <dependent idx="36">n't</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="33">end</governor>
+            <dependent idx="37">ask</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">signed</governor>
+            <dependent idx="38">,</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="41">tell</governor>
+            <dependent idx="39">do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="41">tell</governor>
+            <dependent idx="40">n't</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">signed</governor>
+            <dependent idx="41">tell</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="41">tell</governor>
+            <dependent idx="42">policy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="44">1993</governor>
+            <dependent idx="43">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="42">policy</governor>
+            <dependent idx="44">1993</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="47">prevented</governor>
+            <dependent idx="45">that</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="47">prevented</governor>
+            <dependent idx="46">had</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="42">policy</governor>
+            <dependent idx="47">prevented</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="51">people</governor>
+            <dependent idx="48">gay</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="48">gay</governor>
+            <dependent idx="49">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="48">gay</governor>
+            <dependent idx="50">lesbian</dependent>
+          </dep>
+          <dep type="amod" extra="true">
+            <governor idx="51">people</governor>
+            <dependent idx="50">lesbian</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="47">prevented</governor>
+            <dependent idx="51">people</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="53">serving</governor>
+            <dependent idx="52">from</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="47">prevented</governor>
+            <dependent idx="53">serving</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="53">serving</governor>
+            <dependent idx="54">openly</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="60">Forces</governor>
+            <dependent idx="55">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="60">Forces</governor>
+            <dependent idx="56">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="60">Forces</governor>
+            <dependent idx="57">United</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="60">Forces</governor>
+            <dependent idx="58">States</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="60">Forces</governor>
+            <dependent idx="59">Armed</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="53">serving</governor>
+            <dependent idx="60">Forces</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">signed</governor>
+            <dependent idx="61">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>9</start>
+          <end>10</end>
+          <head>9</head>
+          <text>the</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>34</start>
+          <end>35</end>
+          <head>34</head>
+          <text>the</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

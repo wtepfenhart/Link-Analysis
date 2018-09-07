@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Biography</word>
+            <lemma>biography</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Biographical</word>
+            <lemma>Biographical</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Directory</word>
+            <lemma>Directory</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>United</word>
+            <lemma>United</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>States</word>
+            <lemma>States</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Congress</word>
+            <lemma>Congress</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NN Biography)) (PP (IN at) (NP (DT the) (NNP Biographical) (NNP Directory)))) (PP (IN of) (NP (DT the) (NNP United) (NNPS States) (NNP Congress))))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Biography</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Directory</governor>
+            <dependent idx="2">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Directory</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Directory</governor>
+            <dependent idx="4">Biographical</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Biography</governor>
+            <dependent idx="5">Directory</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Congress</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Congress</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Congress</governor>
+            <dependent idx="8">United</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Congress</governor>
+            <dependent idx="9">States</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Biography</governor>
+            <dependent idx="10">Congress</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Biography</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Directory</governor>
+            <dependent idx="2">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Directory</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Directory</governor>
+            <dependent idx="4">Biographical</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="1">Biography</governor>
+            <dependent idx="5">Directory</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Congress</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Congress</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Congress</governor>
+            <dependent idx="8">United</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Congress</governor>
+            <dependent idx="9">States</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="1">Biography</governor>
+            <dependent idx="10">Congress</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Biography</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Directory</governor>
+            <dependent idx="2">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Directory</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Directory</governor>
+            <dependent idx="4">Biographical</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="1">Biography</governor>
+            <dependent idx="5">Directory</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Congress</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Congress</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Congress</governor>
+            <dependent idx="8">United</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Congress</governor>
+            <dependent idx="9">States</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="1">Biography</governor>
+            <dependent idx="10">Congress</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

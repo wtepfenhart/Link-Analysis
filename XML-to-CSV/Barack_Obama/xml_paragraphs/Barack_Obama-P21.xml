@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Illinois</word>
+            <lemma>Illinois</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>State</word>
+            <lemma>State</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Senator</word>
+            <lemma>Senator</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>1997</word>
+            <lemma>1997</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>1997</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">1997</Timex>
+          </token>
+          <token id="7">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNP Illinois) (NNP State) (NNP Senator)) (PRN (-LRB- -LRB-) (PP (IN from) (NP (CD 1997))) (-RRB- -RRB-)))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Senator</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Senator</governor>
+            <dependent idx="1">Illinois</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Senator</governor>
+            <dependent idx="2">State</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">1997</governor>
+            <dependent idx="4">-LRB-</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">1997</governor>
+            <dependent idx="5">from</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">Senator</governor>
+            <dependent idx="6">1997</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">1997</governor>
+            <dependent idx="7">-RRB-</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Senator</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Senator</governor>
+            <dependent idx="1">Illinois</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Senator</governor>
+            <dependent idx="2">State</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">1997</governor>
+            <dependent idx="4">-LRB-</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">1997</governor>
+            <dependent idx="5">from</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="3">Senator</governor>
+            <dependent idx="6">1997</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">1997</governor>
+            <dependent idx="7">-RRB-</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Senator</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Senator</governor>
+            <dependent idx="1">Illinois</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Senator</governor>
+            <dependent idx="2">State</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">1997</governor>
+            <dependent idx="4">-LRB-</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">1997</governor>
+            <dependent idx="5">from</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="3">Senator</governor>
+            <dependent idx="6">1997</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">1997</governor>
+            <dependent idx="7">-RRB-</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

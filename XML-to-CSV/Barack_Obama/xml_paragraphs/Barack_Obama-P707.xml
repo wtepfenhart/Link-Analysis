@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Works</word>
+            <lemma>Works</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Barack</word>
+            <lemma>Barack</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Obama</word>
+            <lemma>Obama</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Project</word>
+            <lemma>Project</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Gutenberg</word>
+            <lemma>Gutenberg</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (NP (NNP Works)) (PP (IN by) (NP (NNP Barack) (NNP Obama))) (PP (IN at) (NP (NNP Project) (NNP Gutenberg))))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Works</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Obama</governor>
+            <dependent idx="2">by</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Obama</governor>
+            <dependent idx="3">Barack</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Works</governor>
+            <dependent idx="4">Obama</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Gutenberg</governor>
+            <dependent idx="5">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Gutenberg</governor>
+            <dependent idx="6">Project</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Works</governor>
+            <dependent idx="7">Gutenberg</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Works</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Obama</governor>
+            <dependent idx="2">by</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Obama</governor>
+            <dependent idx="3">Barack</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="1">Works</governor>
+            <dependent idx="4">Obama</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Gutenberg</governor>
+            <dependent idx="5">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Gutenberg</governor>
+            <dependent idx="6">Project</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="1">Works</governor>
+            <dependent idx="7">Gutenberg</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Works</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Obama</governor>
+            <dependent idx="2">by</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Obama</governor>
+            <dependent idx="3">Barack</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="1">Works</governor>
+            <dependent idx="4">Obama</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Gutenberg</governor>
+            <dependent idx="5">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Gutenberg</governor>
+            <dependent idx="6">Project</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="1">Works</governor>
+            <dependent idx="7">Gutenberg</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

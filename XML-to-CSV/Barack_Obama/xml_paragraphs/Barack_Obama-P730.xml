@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Bookmark</word>
+            <lemma>Bookmark</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>this</word>
+            <lemma>this</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>page</word>
+            <lemma>page</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNP Bookmark)) (NP (DT this) (NN page)))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Bookmark</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">page</governor>
+            <dependent idx="2">this</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Bookmark</governor>
+            <dependent idx="3">page</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Bookmark</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">page</governor>
+            <dependent idx="2">this</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Bookmark</governor>
+            <dependent idx="3">page</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Bookmark</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">page</governor>
+            <dependent idx="2">this</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Bookmark</governor>
+            <dependent idx="3">page</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

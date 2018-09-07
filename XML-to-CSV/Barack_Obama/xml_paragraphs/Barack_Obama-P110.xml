@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Cultural</word>
+            <lemma>cultural</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>political</word>
+            <lemma>political</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>image</word>
+            <lemma>image</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (X (NP (ADJP (JJ Cultural) (CC and) (JJ political)) (NN image)))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">image</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">image</governor>
+            <dependent idx="1">Cultural</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Cultural</governor>
+            <dependent idx="2">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="1">Cultural</governor>
+            <dependent idx="3">political</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">image</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">image</governor>
+            <dependent idx="1">Cultural</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Cultural</governor>
+            <dependent idx="2">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="1">Cultural</governor>
+            <dependent idx="3">political</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">image</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">image</governor>
+            <dependent idx="1">Cultural</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Cultural</governor>
+            <dependent idx="2">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="1">Cultural</governor>
+            <dependent idx="3">political</dependent>
+          </dep>
+          <dep type="amod" extra="true">
+            <governor idx="4">image</governor>
+            <dependent idx="3">political</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

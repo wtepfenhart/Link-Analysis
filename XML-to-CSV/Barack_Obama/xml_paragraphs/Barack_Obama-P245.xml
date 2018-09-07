@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>^</word>
+            <lemma>^</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>subscription</word>
+            <lemma>subscription</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>required</word>
+            <lemma>require</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>subscription</word>
+            <lemma>subscription</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>required</word>
+            <lemma>require</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>subscription</word>
+            <lemma>subscription</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>required</word>
+            <lemma>require</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>Obama</word>
+            <lemma>Obama</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>1995</word>
+            <lemma>1995</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>1995</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">1995</Timex>
+          </token>
+          <token id="17">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>2004</word>
+            <lemma>2004</lemma>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2004</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DATE">2004</Timex>
+          </token>
+          <token id="19">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>pp.</word>
+            <lemma>pp.</lemma>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>438</word>
+            <lemma>438</lemma>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>438.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>--</word>
+            <lemma>--</lemma>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>439</word>
+            <lemma>439</lemma>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>439.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NP (NP (NN ^)) (PRN (-LRB- -LRB-) (NP (NP (NN subscription)) (VP (VBN required))) (-RRB- -RRB-))) (PRN (-LRB- -LRB-) (NP (NP (NN subscription)) (VP (VBN required))) (-RRB- -RRB-))) (PRN (-LRB- -LRB-) (NP (NP (NN subscription)) (VP (VBN required))) (-RRB- -RRB-))) (VP (NNP Obama) (S (NP (PRN (-LRB- -LRB-) (NP (CD 1995)) (, ,) (NP (CD 2004)) (-RRB- -RRB-) (, ,))) (VP (NN pp.) (NP (NP (CD 438)) (: --) (NP (CD 439)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">Obama</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">Obama</governor>
+            <dependent idx="1">^</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">subscription</governor>
+            <dependent idx="2">-LRB-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">^</governor>
+            <dependent idx="3">subscription</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="3">subscription</governor>
+            <dependent idx="4">required</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">subscription</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">subscription</governor>
+            <dependent idx="6">-LRB-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">^</governor>
+            <dependent idx="7">subscription</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">subscription</governor>
+            <dependent idx="8">required</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">subscription</governor>
+            <dependent idx="9">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">subscription</governor>
+            <dependent idx="10">-LRB-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">^</governor>
+            <dependent idx="11">subscription</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="11">subscription</governor>
+            <dependent idx="12">required</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">subscription</governor>
+            <dependent idx="13">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">1995</governor>
+            <dependent idx="15">-LRB-</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">pp.</governor>
+            <dependent idx="16">1995</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">1995</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="16">1995</governor>
+            <dependent idx="18">2004</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">1995</governor>
+            <dependent idx="19">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">1995</governor>
+            <dependent idx="20">,</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">Obama</governor>
+            <dependent idx="21">pp.</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">pp.</governor>
+            <dependent idx="22">438</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="22">438</governor>
+            <dependent idx="23">--</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="22">438</governor>
+            <dependent idx="24">439</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Obama</governor>
+            <dependent idx="25">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">Obama</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">Obama</governor>
+            <dependent idx="1">^</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">subscription</governor>
+            <dependent idx="2">-LRB-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">^</governor>
+            <dependent idx="3">subscription</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="3">subscription</governor>
+            <dependent idx="4">required</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">subscription</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">subscription</governor>
+            <dependent idx="6">-LRB-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">^</governor>
+            <dependent idx="7">subscription</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">subscription</governor>
+            <dependent idx="8">required</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">subscription</governor>
+            <dependent idx="9">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">subscription</governor>
+            <dependent idx="10">-LRB-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">^</governor>
+            <dependent idx="11">subscription</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="11">subscription</governor>
+            <dependent idx="12">required</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">subscription</governor>
+            <dependent idx="13">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">1995</governor>
+            <dependent idx="15">-LRB-</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">pp.</governor>
+            <dependent idx="16">1995</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">1995</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="16">1995</governor>
+            <dependent idx="18">2004</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">1995</governor>
+            <dependent idx="19">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">1995</governor>
+            <dependent idx="20">,</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">Obama</governor>
+            <dependent idx="21">pp.</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">pp.</governor>
+            <dependent idx="22">438</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="22">438</governor>
+            <dependent idx="23">--</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="22">438</governor>
+            <dependent idx="24">439</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Obama</governor>
+            <dependent idx="25">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">Obama</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">Obama</governor>
+            <dependent idx="1">^</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">subscription</governor>
+            <dependent idx="2">-LRB-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">^</governor>
+            <dependent idx="3">subscription</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="3">subscription</governor>
+            <dependent idx="4">required</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">subscription</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">subscription</governor>
+            <dependent idx="6">-LRB-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">^</governor>
+            <dependent idx="7">subscription</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">subscription</governor>
+            <dependent idx="8">required</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">subscription</governor>
+            <dependent idx="9">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">subscription</governor>
+            <dependent idx="10">-LRB-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">^</governor>
+            <dependent idx="11">subscription</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="11">subscription</governor>
+            <dependent idx="12">required</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">subscription</governor>
+            <dependent idx="13">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">1995</governor>
+            <dependent idx="15">-LRB-</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">pp.</governor>
+            <dependent idx="16">1995</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">1995</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="16">1995</governor>
+            <dependent idx="18">2004</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">1995</governor>
+            <dependent idx="19">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">1995</governor>
+            <dependent idx="20">,</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">Obama</governor>
+            <dependent idx="21">pp.</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">pp.</governor>
+            <dependent idx="22">438</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="22">438</governor>
+            <dependent idx="23">--</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="22">438</governor>
+            <dependent idx="24">439</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Obama</governor>
+            <dependent idx="25">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Mendell</word>
+            <lemma>Mendell</lemma>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>2007</word>
+            <lemma>2007</lemma>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2007</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t3" type="DATE">2007</Timex>
+          </token>
+          <token id="4">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>135</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>pp.</word>
+            <lemma>pp.</lemma>
+            <CharacterOffsetBegin>136</CharacterOffsetBegin>
+            <CharacterOffsetEnd>139</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>104</word>
+            <lemma>104</lemma>
+            <CharacterOffsetBegin>140</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>104.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>--</word>
+            <lemma>--</lemma>
+            <CharacterOffsetBegin>143</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>106</word>
+            <lemma>106</lemma>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>106.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>147</CharacterOffsetBegin>
+            <CharacterOffsetEnd>148</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NNP Mendell)) (PRN (-LRB- -LRB-) (NP (CD 2007)) (-RRB- -RRB-)) (, ,) (NP (NN pp.) (CD 104))) (: --) (NP (CD 106)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Mendell</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">2007</governor>
+            <dependent idx="2">-LRB-</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="3">2007</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">2007</governor>
+            <dependent idx="4">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="6">pp.</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="6">pp.</governor>
+            <dependent idx="7">104</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="8">--</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="9">106</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Mendell</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">2007</governor>
+            <dependent idx="2">-LRB-</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="3">2007</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">2007</governor>
+            <dependent idx="4">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="6">pp.</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="6">pp.</governor>
+            <dependent idx="7">104</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="8">--</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="9">106</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Mendell</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">2007</governor>
+            <dependent idx="2">-LRB-</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="3">2007</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">2007</governor>
+            <dependent idx="4">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="6">pp.</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="6">pp.</governor>
+            <dependent idx="7">104</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="8">--</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="9">106</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Mendell</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>3</start>
+          <end>5</end>
+          <head>3</head>
+          <text>subscription required</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>7</start>
+          <end>9</end>
+          <head>7</head>
+          <text>subscription required</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>11</start>
+          <end>13</end>
+          <head>11</head>
+          <text>subscription required</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

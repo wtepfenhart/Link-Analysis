@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>In</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>October</word>
+            <lemma>October</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2015-10</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2015-10</Timex>
+          </token>
+          <token id="3">
+            <word>2015</word>
+            <lemma>2015</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2015-10</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2015-10</Timex>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>light</word>
+            <lemma>light</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>deteriorating</word>
+            <lemma>deteriorate</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>security</word>
+            <lemma>security</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>situation</word>
+            <lemma>situation</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>White</word>
+            <lemma>White</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>House</word>
+            <lemma>House</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>announced</word>
+            <lemma>announce</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>plan</word>
+            <lemma>plan</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>keep</word>
+            <lemma>keep</lemma>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>U.S.</word>
+            <lemma>U.S.</lemma>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>Forces</word>
+            <lemma>Forces</lemma>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>Afghanistan</word>
+            <lemma>Afghanistan</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>indefinitely</word>
+            <lemma>indefinitely</lemma>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>147</CharacterOffsetBegin>
+            <CharacterOffsetEnd>148</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN In) (NP (NNP October) (CD 2015))) (, ,) (PP (IN in) (NP (NP (NN light)) (PP (IN of) (NP (DT the) (VBG deteriorating) (NN security) (NN situation))))) (, ,) (NP (DT the) (NNP White) (NNP House)) (VP (VBD announced) (NP (DT a) (NN plan) (S (VP (TO to) (VP (VB keep) (NP (NP (NNP U.S.) (NNP Forces)) (PP (IN in) (NP (NNP Afghanistan)))) (ADVP (RB indefinitely))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">announced</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">October</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="16">announced</governor>
+            <dependent idx="2">October</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">October</governor>
+            <dependent idx="3">2015</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">announced</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">light</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="16">announced</governor>
+            <dependent idx="6">light</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">situation</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">situation</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">situation</governor>
+            <dependent idx="9">deteriorating</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">situation</governor>
+            <dependent idx="10">security</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="6">light</governor>
+            <dependent idx="11">situation</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">announced</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">House</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">House</governor>
+            <dependent idx="14">White</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">announced</governor>
+            <dependent idx="15">House</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">plan</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">announced</governor>
+            <dependent idx="18">plan</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="20">keep</governor>
+            <dependent idx="19">to</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="18">plan</governor>
+            <dependent idx="20">keep</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">Forces</governor>
+            <dependent idx="21">U.S.</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">keep</governor>
+            <dependent idx="22">Forces</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">Afghanistan</governor>
+            <dependent idx="23">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="22">Forces</governor>
+            <dependent idx="24">Afghanistan</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="20">keep</governor>
+            <dependent idx="25">indefinitely</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">announced</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">announced</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">October</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="16">announced</governor>
+            <dependent idx="2">October</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">October</governor>
+            <dependent idx="3">2015</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">announced</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">light</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="16">announced</governor>
+            <dependent idx="6">light</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">situation</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">situation</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">situation</governor>
+            <dependent idx="9">deteriorating</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">situation</governor>
+            <dependent idx="10">security</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="6">light</governor>
+            <dependent idx="11">situation</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">announced</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">House</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">House</governor>
+            <dependent idx="14">White</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">announced</governor>
+            <dependent idx="15">House</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">plan</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">announced</governor>
+            <dependent idx="18">plan</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="20">keep</governor>
+            <dependent idx="19">to</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="18">plan</governor>
+            <dependent idx="20">keep</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">Forces</governor>
+            <dependent idx="21">U.S.</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">keep</governor>
+            <dependent idx="22">Forces</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">Afghanistan</governor>
+            <dependent idx="23">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="22">Forces</governor>
+            <dependent idx="24">Afghanistan</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="20">keep</governor>
+            <dependent idx="25">indefinitely</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">announced</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">announced</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">October</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="16">announced</governor>
+            <dependent idx="2">October</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">October</governor>
+            <dependent idx="3">2015</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">announced</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">light</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="16">announced</governor>
+            <dependent idx="6">light</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">situation</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">situation</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">situation</governor>
+            <dependent idx="9">deteriorating</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">situation</governor>
+            <dependent idx="10">security</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="6">light</governor>
+            <dependent idx="11">situation</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">announced</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">House</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">House</governor>
+            <dependent idx="14">White</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">announced</governor>
+            <dependent idx="15">House</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">plan</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">announced</governor>
+            <dependent idx="18">plan</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="20">keep</governor>
+            <dependent idx="19">to</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="18">plan</governor>
+            <dependent idx="20">keep</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">Forces</governor>
+            <dependent idx="21">U.S.</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">keep</governor>
+            <dependent idx="22">Forces</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">Afghanistan</governor>
+            <dependent idx="23">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="22">Forces</governor>
+            <dependent idx="24">Afghanistan</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="20">keep</governor>
+            <dependent idx="25">indefinitely</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">announced</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

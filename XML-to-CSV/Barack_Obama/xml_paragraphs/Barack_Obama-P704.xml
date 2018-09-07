@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Barack</word>
+            <lemma>Barack</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Obama</word>
+            <lemma>Obama</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>articles</word>
+            <lemma>article</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>archive</word>
+            <lemma>archive</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Chicago</word>
+            <lemma>Chicago</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Tribune</word>
+            <lemma>Tribune</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNP Barack) (NNP Obama)) (NP (NP (NNS articles)) (PP (IN in) (NP (NP (DT the) (NN archive)) (PP (IN of) (NP (DT the) (NNP Chicago) (NNP Tribune)))))))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Obama</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Obama</governor>
+            <dependent idx="1">Barack</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Obama</governor>
+            <dependent idx="3">articles</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">archive</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">archive</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">articles</governor>
+            <dependent idx="6">archive</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Tribune</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Tribune</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Tribune</governor>
+            <dependent idx="9">Chicago</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="6">archive</governor>
+            <dependent idx="10">Tribune</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Obama</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Obama</governor>
+            <dependent idx="1">Barack</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Obama</governor>
+            <dependent idx="3">articles</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">archive</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">archive</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">articles</governor>
+            <dependent idx="6">archive</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Tribune</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Tribune</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Tribune</governor>
+            <dependent idx="9">Chicago</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="6">archive</governor>
+            <dependent idx="10">Tribune</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Obama</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Obama</governor>
+            <dependent idx="1">Barack</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Obama</governor>
+            <dependent idx="3">articles</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">archive</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">archive</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">articles</governor>
+            <dependent idx="6">archive</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Tribune</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Tribune</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Tribune</governor>
+            <dependent idx="9">Chicago</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="6">archive</governor>
+            <dependent idx="10">Tribune</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,3282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>ACA</word>
+            <lemma>aca</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>includes</word>
+            <lemma>include</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>health-related</word>
+            <lemma>health-related</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>provisions</word>
+            <lemma>provision</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>take</word>
+            <lemma>take</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>effect</word>
+            <lemma>effect</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>over</word>
+            <lemma>over</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>four</word>
+            <lemma>four</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P4Y</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">P4Y</Timex>
+          </token>
+          <token id="11">
+            <word>years</word>
+            <lemma>year</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P4Y</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">P4Y</Timex>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>including</word>
+            <lemma>include</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>expanding</word>
+            <lemma>expand</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>Medicaid</word>
+            <lemma>Medicaid</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>eligibility</word>
+            <lemma>eligibility</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>people</word>
+            <lemma>people</lemma>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>making</word>
+            <lemma>make</lemma>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>up</word>
+            <lemma>up</lemma>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>139</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>133</word>
+            <lemma>133</lemma>
+            <CharacterOffsetBegin>140</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>&lt;=%133.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>percent</word>
+            <lemma>percent</lemma>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>151</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>&lt;=%133.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>152</CharacterOffsetBegin>
+            <CharacterOffsetEnd>154</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>155</CharacterOffsetBegin>
+            <CharacterOffsetEnd>158</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>federal</word>
+            <lemma>federal</lemma>
+            <CharacterOffsetBegin>159</CharacterOffsetBegin>
+            <CharacterOffsetEnd>166</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="27">
+            <word>poverty</word>
+            <lemma>poverty</lemma>
+            <CharacterOffsetBegin>167</CharacterOffsetBegin>
+            <CharacterOffsetEnd>174</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="28">
+            <word>level</word>
+            <lemma>level</lemma>
+            <CharacterOffsetBegin>175</CharacterOffsetBegin>
+            <CharacterOffsetEnd>180</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="29">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>181</CharacterOffsetBegin>
+            <CharacterOffsetEnd>182</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="30">
+            <word>FPL</word>
+            <lemma>FPL</lemma>
+            <CharacterOffsetBegin>182</CharacterOffsetBegin>
+            <CharacterOffsetEnd>185</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="31">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>185</CharacterOffsetBegin>
+            <CharacterOffsetEnd>186</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="32">
+            <word>starting</word>
+            <lemma>start</lemma>
+            <CharacterOffsetBegin>187</CharacterOffsetBegin>
+            <CharacterOffsetEnd>195</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="33">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>196</CharacterOffsetBegin>
+            <CharacterOffsetEnd>198</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="34">
+            <word>2014</word>
+            <lemma>2014</lemma>
+            <CharacterOffsetBegin>199</CharacterOffsetBegin>
+            <CharacterOffsetEnd>203</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DATE">2014</Timex>
+          </token>
+          <token id="35">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>203</CharacterOffsetBegin>
+            <CharacterOffsetEnd>204</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="36">
+            <word>subsidizing</word>
+            <lemma>subsidize</lemma>
+            <CharacterOffsetBegin>205</CharacterOffsetBegin>
+            <CharacterOffsetEnd>216</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="37">
+            <word>insurance</word>
+            <lemma>insurance</lemma>
+            <CharacterOffsetBegin>217</CharacterOffsetBegin>
+            <CharacterOffsetEnd>226</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="38">
+            <word>premiums</word>
+            <lemma>premium</lemma>
+            <CharacterOffsetBegin>227</CharacterOffsetBegin>
+            <CharacterOffsetEnd>235</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="39">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>236</CharacterOffsetBegin>
+            <CharacterOffsetEnd>239</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="40">
+            <word>people</word>
+            <lemma>people</lemma>
+            <CharacterOffsetBegin>240</CharacterOffsetBegin>
+            <CharacterOffsetEnd>246</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="41">
+            <word>making</word>
+            <lemma>make</lemma>
+            <CharacterOffsetBegin>247</CharacterOffsetBegin>
+            <CharacterOffsetEnd>253</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="42">
+            <word>up</word>
+            <lemma>up</lemma>
+            <CharacterOffsetBegin>254</CharacterOffsetBegin>
+            <CharacterOffsetEnd>256</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="43">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>257</CharacterOffsetBegin>
+            <CharacterOffsetEnd>259</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="44">
+            <word>400</word>
+            <lemma>400</lemma>
+            <CharacterOffsetBegin>260</CharacterOffsetBegin>
+            <CharacterOffsetEnd>263</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>&lt;=%400.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="45">
+            <word>percent</word>
+            <lemma>percent</lemma>
+            <CharacterOffsetBegin>264</CharacterOffsetBegin>
+            <CharacterOffsetEnd>271</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>&lt;=%400.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="46">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>272</CharacterOffsetBegin>
+            <CharacterOffsetEnd>274</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="47">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>275</CharacterOffsetBegin>
+            <CharacterOffsetEnd>278</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="48">
+            <word>FPL</word>
+            <lemma>FPL</lemma>
+            <CharacterOffsetBegin>279</CharacterOffsetBegin>
+            <CharacterOffsetEnd>282</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="49">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>283</CharacterOffsetBegin>
+            <CharacterOffsetEnd>284</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="50">
+            <word>$</word>
+            <lemma>$</lemma>
+            <CharacterOffsetBegin>284</CharacterOffsetBegin>
+            <CharacterOffsetEnd>285</CharacterOffsetEnd>
+            <POS>$</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$88000.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="51">
+            <word>88,000</word>
+            <lemma>88,000</lemma>
+            <CharacterOffsetBegin>285</CharacterOffsetBegin>
+            <CharacterOffsetEnd>291</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$88000.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="52">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>292</CharacterOffsetBegin>
+            <CharacterOffsetEnd>295</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="53">
+            <word>family</word>
+            <lemma>family</lemma>
+            <CharacterOffsetBegin>296</CharacterOffsetBegin>
+            <CharacterOffsetEnd>302</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="54">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>303</CharacterOffsetBegin>
+            <CharacterOffsetEnd>305</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="55">
+            <word>four</word>
+            <lemma>four</lemma>
+            <CharacterOffsetBegin>306</CharacterOffsetBegin>
+            <CharacterOffsetEnd>310</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>4.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="56">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>311</CharacterOffsetBegin>
+            <CharacterOffsetEnd>313</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="57">
+            <word>2010</word>
+            <lemma>2010</lemma>
+            <CharacterOffsetBegin>314</CharacterOffsetBegin>
+            <CharacterOffsetEnd>318</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2010</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t3" type="DATE">2010</Timex>
+          </token>
+          <token id="58">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>318</CharacterOffsetBegin>
+            <CharacterOffsetEnd>319</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="59">
+            <word>so</word>
+            <lemma>so</lemma>
+            <CharacterOffsetBegin>320</CharacterOffsetBegin>
+            <CharacterOffsetEnd>322</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="60">
+            <word>their</word>
+            <lemma>they</lemma>
+            <CharacterOffsetBegin>323</CharacterOffsetBegin>
+            <CharacterOffsetEnd>328</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="61">
+            <word>maximum</word>
+            <lemma>maximum</lemma>
+            <CharacterOffsetBegin>329</CharacterOffsetBegin>
+            <CharacterOffsetEnd>336</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="62">
+            <word>``</word>
+            <lemma>``</lemma>
+            <CharacterOffsetBegin>337</CharacterOffsetBegin>
+            <CharacterOffsetEnd>338</CharacterOffsetEnd>
+            <POS>``</POS>
+            <NER>O</NER>
+          </token>
+          <token id="63">
+            <word>out-of-pocket</word>
+            <lemma>out-of-pocket</lemma>
+            <CharacterOffsetBegin>338</CharacterOffsetBegin>
+            <CharacterOffsetEnd>351</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="64">
+            <word>''</word>
+            <lemma>''</lemma>
+            <CharacterOffsetBegin>351</CharacterOffsetBegin>
+            <CharacterOffsetEnd>352</CharacterOffsetEnd>
+            <POS>''</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="65">
+            <word>payment</word>
+            <lemma>payment</lemma>
+            <CharacterOffsetBegin>353</CharacterOffsetBegin>
+            <CharacterOffsetEnd>360</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="66">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>361</CharacterOffsetBegin>
+            <CharacterOffsetEnd>364</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="67">
+            <word>annual</word>
+            <lemma>annual</lemma>
+            <CharacterOffsetBegin>365</CharacterOffsetBegin>
+            <CharacterOffsetEnd>371</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>SET</NER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t4" type="SET">P1Y</Timex>
+          </token>
+          <token id="68">
+            <word>premiums</word>
+            <lemma>premium</lemma>
+            <CharacterOffsetBegin>372</CharacterOffsetBegin>
+            <CharacterOffsetEnd>380</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="69">
+            <word>will</word>
+            <lemma>will</lemma>
+            <CharacterOffsetBegin>381</CharacterOffsetBegin>
+            <CharacterOffsetEnd>385</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="70">
+            <word>be</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>386</CharacterOffsetBegin>
+            <CharacterOffsetEnd>388</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="71">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>389</CharacterOffsetBegin>
+            <CharacterOffsetEnd>393</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="72">
+            <word>2</word>
+            <lemma>2</lemma>
+            <CharacterOffsetBegin>394</CharacterOffsetBegin>
+            <CharacterOffsetEnd>395</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>2.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="73">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>396</CharacterOffsetBegin>
+            <CharacterOffsetEnd>398</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="74">
+            <word>9.5</word>
+            <lemma>9.5</lemma>
+            <CharacterOffsetBegin>399</CharacterOffsetBegin>
+            <CharacterOffsetEnd>402</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%9.5</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="75">
+            <word>percent</word>
+            <lemma>percent</lemma>
+            <CharacterOffsetBegin>403</CharacterOffsetBegin>
+            <CharacterOffsetEnd>410</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%9.5</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="76">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>411</CharacterOffsetBegin>
+            <CharacterOffsetEnd>413</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="77">
+            <word>income</word>
+            <lemma>income</lemma>
+            <CharacterOffsetBegin>414</CharacterOffsetBegin>
+            <CharacterOffsetEnd>420</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="78">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>420</CharacterOffsetBegin>
+            <CharacterOffsetEnd>421</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="79">
+            <word>providing</word>
+            <lemma>provide</lemma>
+            <CharacterOffsetBegin>422</CharacterOffsetBegin>
+            <CharacterOffsetEnd>431</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="80">
+            <word>incentives</word>
+            <lemma>incentive</lemma>
+            <CharacterOffsetBegin>432</CharacterOffsetBegin>
+            <CharacterOffsetEnd>442</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="81">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>443</CharacterOffsetBegin>
+            <CharacterOffsetEnd>446</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="82">
+            <word>businesses</word>
+            <lemma>business</lemma>
+            <CharacterOffsetBegin>447</CharacterOffsetBegin>
+            <CharacterOffsetEnd>457</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="83">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>458</CharacterOffsetBegin>
+            <CharacterOffsetEnd>460</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="84">
+            <word>provide</word>
+            <lemma>provide</lemma>
+            <CharacterOffsetBegin>461</CharacterOffsetBegin>
+            <CharacterOffsetEnd>468</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="85">
+            <word>health</word>
+            <lemma>health</lemma>
+            <CharacterOffsetBegin>469</CharacterOffsetBegin>
+            <CharacterOffsetEnd>475</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="86">
+            <word>care</word>
+            <lemma>care</lemma>
+            <CharacterOffsetBegin>476</CharacterOffsetBegin>
+            <CharacterOffsetEnd>480</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="87">
+            <word>benefits</word>
+            <lemma>benefit</lemma>
+            <CharacterOffsetBegin>481</CharacterOffsetBegin>
+            <CharacterOffsetEnd>489</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="88">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>489</CharacterOffsetBegin>
+            <CharacterOffsetEnd>490</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="89">
+            <word>prohibiting</word>
+            <lemma>prohibit</lemma>
+            <CharacterOffsetBegin>491</CharacterOffsetBegin>
+            <CharacterOffsetEnd>502</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="90">
+            <word>denial</word>
+            <lemma>denial</lemma>
+            <CharacterOffsetBegin>503</CharacterOffsetBegin>
+            <CharacterOffsetEnd>509</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="91">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>510</CharacterOffsetBegin>
+            <CharacterOffsetEnd>512</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="92">
+            <word>coverage</word>
+            <lemma>coverage</lemma>
+            <CharacterOffsetBegin>513</CharacterOffsetBegin>
+            <CharacterOffsetEnd>521</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="93">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>522</CharacterOffsetBegin>
+            <CharacterOffsetEnd>525</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="94">
+            <word>denial</word>
+            <lemma>denial</lemma>
+            <CharacterOffsetBegin>526</CharacterOffsetBegin>
+            <CharacterOffsetEnd>532</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="95">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>533</CharacterOffsetBegin>
+            <CharacterOffsetEnd>535</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="96">
+            <word>claims</word>
+            <lemma>claim</lemma>
+            <CharacterOffsetBegin>536</CharacterOffsetBegin>
+            <CharacterOffsetEnd>542</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="97">
+            <word>based</word>
+            <lemma>base</lemma>
+            <CharacterOffsetBegin>543</CharacterOffsetBegin>
+            <CharacterOffsetEnd>548</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="98">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>549</CharacterOffsetBegin>
+            <CharacterOffsetEnd>551</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="99">
+            <word>pre-existing</word>
+            <lemma>pre-existing</lemma>
+            <CharacterOffsetBegin>552</CharacterOffsetBegin>
+            <CharacterOffsetEnd>564</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="100">
+            <word>conditions</word>
+            <lemma>condition</lemma>
+            <CharacterOffsetBegin>565</CharacterOffsetBegin>
+            <CharacterOffsetEnd>575</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="101">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>575</CharacterOffsetBegin>
+            <CharacterOffsetEnd>576</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="102">
+            <word>establishing</word>
+            <lemma>establish</lemma>
+            <CharacterOffsetBegin>577</CharacterOffsetBegin>
+            <CharacterOffsetEnd>589</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="103">
+            <word>health</word>
+            <lemma>health</lemma>
+            <CharacterOffsetBegin>590</CharacterOffsetBegin>
+            <CharacterOffsetEnd>596</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="104">
+            <word>insurance</word>
+            <lemma>insurance</lemma>
+            <CharacterOffsetBegin>597</CharacterOffsetBegin>
+            <CharacterOffsetEnd>606</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="105">
+            <word>exchanges</word>
+            <lemma>exchange</lemma>
+            <CharacterOffsetBegin>607</CharacterOffsetBegin>
+            <CharacterOffsetEnd>616</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="106">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>616</CharacterOffsetBegin>
+            <CharacterOffsetEnd>617</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="107">
+            <word>prohibiting</word>
+            <lemma>prohibit</lemma>
+            <CharacterOffsetBegin>618</CharacterOffsetBegin>
+            <CharacterOffsetEnd>629</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="108">
+            <word>annual</word>
+            <lemma>annual</lemma>
+            <CharacterOffsetBegin>630</CharacterOffsetBegin>
+            <CharacterOffsetEnd>636</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>SET</NER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t5" type="SET">P1Y</Timex>
+          </token>
+          <token id="109">
+            <word>coverage</word>
+            <lemma>coverage</lemma>
+            <CharacterOffsetBegin>637</CharacterOffsetBegin>
+            <CharacterOffsetEnd>645</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="110">
+            <word>caps</word>
+            <lemma>cap</lemma>
+            <CharacterOffsetBegin>646</CharacterOffsetBegin>
+            <CharacterOffsetEnd>650</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="111">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>650</CharacterOffsetBegin>
+            <CharacterOffsetEnd>651</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="112">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>652</CharacterOffsetBegin>
+            <CharacterOffsetEnd>655</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="113">
+            <word>support</word>
+            <lemma>support</lemma>
+            <CharacterOffsetBegin>656</CharacterOffsetBegin>
+            <CharacterOffsetEnd>663</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="114">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>664</CharacterOffsetBegin>
+            <CharacterOffsetEnd>667</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="115">
+            <word>medical</word>
+            <lemma>medical</lemma>
+            <CharacterOffsetBegin>668</CharacterOffsetBegin>
+            <CharacterOffsetEnd>675</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="116">
+            <word>research</word>
+            <lemma>research</lemma>
+            <CharacterOffsetBegin>676</CharacterOffsetBegin>
+            <CharacterOffsetEnd>684</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="117">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>684</CharacterOffsetBegin>
+            <CharacterOffsetEnd>685</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN ACA)) (VP (VBZ includes) (S (NP (JJ health-related) (NNS provisions)) (VP (TO to) (VP (VB take) (NP (NN effect)) (PP (IN over) (NP (CD four) (NNS years))) (, ,) (PP (VBG including) (S (VP (VP (VBG expanding) (NP (NNP Medicaid) (NN eligibility)) (PP (IN for) (NP (NP (NNS people)) (VP (VBG making) (NP (NP (QP (RP up) (TO to) (CD 133)) (NN percent)) (PP (IN of) (NP (NP (DT the) (JJ federal) (NN poverty) (NN level)) (PRN (-LRB- -LRB-) (NP (NNP FPL)) (-RRB- -RRB-))))) (PP (VBG starting) (PP (IN in) (NP (CD 2014)))))))) (, ,) (VP (VBG subsidizing) (NP (NN insurance) (NNS premiums)) (PP (IN for) (NP (NP (NNS people)) (VP (VBG making) (PRT (RP up)) (PP (TO to) (NP (NP (CD 400) (NN percent)) (PP (IN of) (NP (NP (DT the) (NNP FPL)) (PRN (-LRB- -LRB-) (NP (NP ($ $) (CD 88,000)) (PP (IN for) (NP (NP (NN family)) (PP (IN of) (NP (CD four))))) (PP (IN in) (NP (CD 2010)))) (-RRB- -RRB-)))))) (SBAR (IN so) (S (NP (NP (PRP$ their) (NN maximum) (`` ``) (NN out-of-pocket) ('' '') (NN payment)) (PP (IN for) (NP (JJ annual) (NNS premiums)))) (VP (MD will) (VP (VB be) (PP (IN from) (NP (NP (QP (CD 2) (TO to) (CD 9.5)) (NN percent)) (PP (IN of) (NP (NN income))))))))))))) (, ,) (VP (VBG providing) (NP (NP (NNS incentives)) (PP (IN for) (NP (NNS businesses)))) (S (VP (TO to) (VP (VB provide) (NP (NN health) (NN care) (NNS benefits)))))) (, ,) (VP (VBG prohibiting) (NP (NP (NN denial)) (PP (IN of) (NP (NN coverage) (CC and) (NN denial))) (PP (IN of) (NP (NNS claims)))) (PP (VBN based) (PP (IN on) (NP (JJ pre-existing) (NNS conditions))))) (, ,) (VP (VBG establishing) (NP (NN health) (NN insurance) (NNS exchanges))) (, ,) (VP (VBG prohibiting) (NP (NP (JJ annual) (NN coverage) (NNS caps)) (, ,) (CC and) (NP (NN support)))) (PP (IN for) (NP (JJ medical) (NN research)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">includes</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">ACA</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">includes</governor>
+            <dependent idx="2">ACA</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">provisions</governor>
+            <dependent idx="4">health-related</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">includes</governor>
+            <dependent idx="5">provisions</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">take</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">includes</governor>
+            <dependent idx="7">take</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">take</governor>
+            <dependent idx="8">effect</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">years</governor>
+            <dependent idx="9">over</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">years</governor>
+            <dependent idx="10">four</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">take</governor>
+            <dependent idx="11">years</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">take</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">expanding</governor>
+            <dependent idx="13">including</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">take</governor>
+            <dependent idx="14">expanding</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">eligibility</governor>
+            <dependent idx="15">Medicaid</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">expanding</governor>
+            <dependent idx="16">eligibility</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">people</governor>
+            <dependent idx="17">for</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="14">expanding</governor>
+            <dependent idx="18">people</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="18">people</governor>
+            <dependent idx="19">making</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="22">133</governor>
+            <dependent idx="20">up</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="22">133</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="23">percent</governor>
+            <dependent idx="22">133</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">making</governor>
+            <dependent idx="23">percent</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="28">level</governor>
+            <dependent idx="24">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="28">level</governor>
+            <dependent idx="25">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="28">level</governor>
+            <dependent idx="26">federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="28">level</governor>
+            <dependent idx="27">poverty</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="23">percent</governor>
+            <dependent idx="28">level</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="30">FPL</governor>
+            <dependent idx="29">-LRB-</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="28">level</governor>
+            <dependent idx="30">FPL</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="30">FPL</governor>
+            <dependent idx="31">-RRB-</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="34">2014</governor>
+            <dependent idx="32">starting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="34">2014</governor>
+            <dependent idx="33">in</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="19">making</governor>
+            <dependent idx="34">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">expanding</governor>
+            <dependent idx="35">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">expanding</governor>
+            <dependent idx="36">subsidizing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="38">premiums</governor>
+            <dependent idx="37">insurance</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="36">subsidizing</governor>
+            <dependent idx="38">premiums</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="40">people</governor>
+            <dependent idx="39">for</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="36">subsidizing</governor>
+            <dependent idx="40">people</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="40">people</governor>
+            <dependent idx="41">making</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="41">making</governor>
+            <dependent idx="42">up</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="45">percent</governor>
+            <dependent idx="43">to</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="45">percent</governor>
+            <dependent idx="44">400</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="41">making</governor>
+            <dependent idx="45">percent</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="48">FPL</governor>
+            <dependent idx="46">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="48">FPL</governor>
+            <dependent idx="47">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="45">percent</governor>
+            <dependent idx="48">FPL</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="51">88,000</governor>
+            <dependent idx="49">-LRB-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="51">88,000</governor>
+            <dependent idx="50">$</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="48">FPL</governor>
+            <dependent idx="51">88,000</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="53">family</governor>
+            <dependent idx="52">for</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="51">88,000</governor>
+            <dependent idx="53">family</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="55">four</governor>
+            <dependent idx="54">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="53">family</governor>
+            <dependent idx="55">four</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="57">2010</governor>
+            <dependent idx="56">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="51">88,000</governor>
+            <dependent idx="57">2010</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="51">88,000</governor>
+            <dependent idx="58">-RRB-</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="75">percent</governor>
+            <dependent idx="59">so</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="65">payment</governor>
+            <dependent idx="60">their</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="65">payment</governor>
+            <dependent idx="61">maximum</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="65">payment</governor>
+            <dependent idx="62">``</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="65">payment</governor>
+            <dependent idx="63">out-of-pocket</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="65">payment</governor>
+            <dependent idx="64">''</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="75">percent</governor>
+            <dependent idx="65">payment</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="68">premiums</governor>
+            <dependent idx="66">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="68">premiums</governor>
+            <dependent idx="67">annual</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="65">payment</governor>
+            <dependent idx="68">premiums</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="75">percent</governor>
+            <dependent idx="69">will</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="75">percent</governor>
+            <dependent idx="70">be</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="75">percent</governor>
+            <dependent idx="71">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="74">9.5</governor>
+            <dependent idx="72">2</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="74">9.5</governor>
+            <dependent idx="73">to</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="75">percent</governor>
+            <dependent idx="74">9.5</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="41">making</governor>
+            <dependent idx="75">percent</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="77">income</governor>
+            <dependent idx="76">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="75">percent</governor>
+            <dependent idx="77">income</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">expanding</governor>
+            <dependent idx="78">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">expanding</governor>
+            <dependent idx="79">providing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="79">providing</governor>
+            <dependent idx="80">incentives</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="82">businesses</governor>
+            <dependent idx="81">for</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="80">incentives</governor>
+            <dependent idx="82">businesses</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="84">provide</governor>
+            <dependent idx="83">to</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="79">providing</governor>
+            <dependent idx="84">provide</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="87">benefits</governor>
+            <dependent idx="85">health</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="87">benefits</governor>
+            <dependent idx="86">care</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="84">provide</governor>
+            <dependent idx="87">benefits</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">expanding</governor>
+            <dependent idx="88">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">expanding</governor>
+            <dependent idx="89">prohibiting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="89">prohibiting</governor>
+            <dependent idx="90">denial</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="92">coverage</governor>
+            <dependent idx="91">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="90">denial</governor>
+            <dependent idx="92">coverage</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="92">coverage</governor>
+            <dependent idx="93">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="92">coverage</governor>
+            <dependent idx="94">denial</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="96">claims</governor>
+            <dependent idx="95">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="90">denial</governor>
+            <dependent idx="96">claims</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="100">conditions</governor>
+            <dependent idx="97">based</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="100">conditions</governor>
+            <dependent idx="98">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="100">conditions</governor>
+            <dependent idx="99">pre-existing</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="89">prohibiting</governor>
+            <dependent idx="100">conditions</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">expanding</governor>
+            <dependent idx="101">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">expanding</governor>
+            <dependent idx="102">establishing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="105">exchanges</governor>
+            <dependent idx="103">health</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="105">exchanges</governor>
+            <dependent idx="104">insurance</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="102">establishing</governor>
+            <dependent idx="105">exchanges</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">expanding</governor>
+            <dependent idx="106">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">expanding</governor>
+            <dependent idx="107">prohibiting</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="110">caps</governor>
+            <dependent idx="108">annual</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="110">caps</governor>
+            <dependent idx="109">coverage</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="107">prohibiting</governor>
+            <dependent idx="110">caps</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="110">caps</governor>
+            <dependent idx="111">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="110">caps</governor>
+            <dependent idx="112">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="110">caps</governor>
+            <dependent idx="113">support</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="116">research</governor>
+            <dependent idx="114">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="116">research</governor>
+            <dependent idx="115">medical</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="14">expanding</governor>
+            <dependent idx="116">research</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">includes</governor>
+            <dependent idx="117">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">includes</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">ACA</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">includes</governor>
+            <dependent idx="2">ACA</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">provisions</governor>
+            <dependent idx="4">health-related</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">includes</governor>
+            <dependent idx="5">provisions</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">take</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">includes</governor>
+            <dependent idx="7">take</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">take</governor>
+            <dependent idx="8">effect</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">years</governor>
+            <dependent idx="9">over</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">years</governor>
+            <dependent idx="10">four</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="7">take</governor>
+            <dependent idx="11">years</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">take</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">expanding</governor>
+            <dependent idx="13">including</dependent>
+          </dep>
+          <dep type="advcl:including">
+            <governor idx="7">take</governor>
+            <dependent idx="14">expanding</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">eligibility</governor>
+            <dependent idx="15">Medicaid</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">expanding</governor>
+            <dependent idx="16">eligibility</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">people</governor>
+            <dependent idx="17">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="14">expanding</governor>
+            <dependent idx="18">people</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="18">people</governor>
+            <dependent idx="19">making</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="22">133</governor>
+            <dependent idx="20">up</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="22">133</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="23">percent</governor>
+            <dependent idx="22">133</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">making</governor>
+            <dependent idx="23">percent</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="28">level</governor>
+            <dependent idx="24">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="28">level</governor>
+            <dependent idx="25">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="28">level</governor>
+            <dependent idx="26">federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="28">level</governor>
+            <dependent idx="27">poverty</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="23">percent</governor>
+            <dependent idx="28">level</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="30">FPL</governor>
+            <dependent idx="29">-LRB-</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="28">level</governor>
+            <dependent idx="30">FPL</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="30">FPL</governor>
+            <dependent idx="31">-RRB-</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="34">2014</governor>
+            <dependent idx="32">starting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="34">2014</governor>
+            <dependent idx="33">in</dependent>
+          </dep>
+          <dep type="advcl:in">
+            <governor idx="19">making</governor>
+            <dependent idx="34">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">expanding</governor>
+            <dependent idx="35">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">expanding</governor>
+            <dependent idx="36">subsidizing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="38">premiums</governor>
+            <dependent idx="37">insurance</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="36">subsidizing</governor>
+            <dependent idx="38">premiums</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="40">people</governor>
+            <dependent idx="39">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="36">subsidizing</governor>
+            <dependent idx="40">people</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="40">people</governor>
+            <dependent idx="41">making</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="41">making</governor>
+            <dependent idx="42">up</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="45">percent</governor>
+            <dependent idx="43">to</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="45">percent</governor>
+            <dependent idx="44">400</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="41">making</governor>
+            <dependent idx="45">percent</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="48">FPL</governor>
+            <dependent idx="46">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="48">FPL</governor>
+            <dependent idx="47">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="45">percent</governor>
+            <dependent idx="48">FPL</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="51">88,000</governor>
+            <dependent idx="49">-LRB-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="51">88,000</governor>
+            <dependent idx="50">$</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="48">FPL</governor>
+            <dependent idx="51">88,000</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="53">family</governor>
+            <dependent idx="52">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="51">88,000</governor>
+            <dependent idx="53">family</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="55">four</governor>
+            <dependent idx="54">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="53">family</governor>
+            <dependent idx="55">four</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="57">2010</governor>
+            <dependent idx="56">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="51">88,000</governor>
+            <dependent idx="57">2010</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="51">88,000</governor>
+            <dependent idx="58">-RRB-</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="75">percent</governor>
+            <dependent idx="59">so</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="65">payment</governor>
+            <dependent idx="60">their</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="65">payment</governor>
+            <dependent idx="61">maximum</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="65">payment</governor>
+            <dependent idx="62">``</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="65">payment</governor>
+            <dependent idx="63">out-of-pocket</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="65">payment</governor>
+            <dependent idx="64">''</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="75">percent</governor>
+            <dependent idx="65">payment</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="68">premiums</governor>
+            <dependent idx="66">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="68">premiums</governor>
+            <dependent idx="67">annual</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="65">payment</governor>
+            <dependent idx="68">premiums</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="75">percent</governor>
+            <dependent idx="69">will</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="75">percent</governor>
+            <dependent idx="70">be</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="75">percent</governor>
+            <dependent idx="71">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="74">9.5</governor>
+            <dependent idx="72">2</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="74">9.5</governor>
+            <dependent idx="73">to</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="75">percent</governor>
+            <dependent idx="74">9.5</dependent>
+          </dep>
+          <dep type="advcl:from">
+            <governor idx="41">making</governor>
+            <dependent idx="75">percent</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="77">income</governor>
+            <dependent idx="76">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="75">percent</governor>
+            <dependent idx="77">income</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">expanding</governor>
+            <dependent idx="78">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">expanding</governor>
+            <dependent idx="79">providing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="79">providing</governor>
+            <dependent idx="80">incentives</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="82">businesses</governor>
+            <dependent idx="81">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="80">incentives</governor>
+            <dependent idx="82">businesses</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="84">provide</governor>
+            <dependent idx="83">to</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="79">providing</governor>
+            <dependent idx="84">provide</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="87">benefits</governor>
+            <dependent idx="85">health</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="87">benefits</governor>
+            <dependent idx="86">care</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="84">provide</governor>
+            <dependent idx="87">benefits</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">expanding</governor>
+            <dependent idx="88">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">expanding</governor>
+            <dependent idx="89">prohibiting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="89">prohibiting</governor>
+            <dependent idx="90">denial</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="92">coverage</governor>
+            <dependent idx="91">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="90">denial</governor>
+            <dependent idx="92">coverage</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="92">coverage</governor>
+            <dependent idx="93">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="92">coverage</governor>
+            <dependent idx="94">denial</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="96">claims</governor>
+            <dependent idx="95">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="90">denial</governor>
+            <dependent idx="96">claims</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="100">conditions</governor>
+            <dependent idx="97">based</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="97">based</governor>
+            <dependent idx="98">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="100">conditions</governor>
+            <dependent idx="99">pre-existing</dependent>
+          </dep>
+          <dep type="advcl:based_on">
+            <governor idx="89">prohibiting</governor>
+            <dependent idx="100">conditions</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">expanding</governor>
+            <dependent idx="101">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">expanding</governor>
+            <dependent idx="102">establishing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="105">exchanges</governor>
+            <dependent idx="103">health</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="105">exchanges</governor>
+            <dependent idx="104">insurance</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="102">establishing</governor>
+            <dependent idx="105">exchanges</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">expanding</governor>
+            <dependent idx="106">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">expanding</governor>
+            <dependent idx="107">prohibiting</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="110">caps</governor>
+            <dependent idx="108">annual</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="110">caps</governor>
+            <dependent idx="109">coverage</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="107">prohibiting</governor>
+            <dependent idx="110">caps</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="110">caps</governor>
+            <dependent idx="111">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="110">caps</governor>
+            <dependent idx="112">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="110">caps</governor>
+            <dependent idx="113">support</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="116">research</governor>
+            <dependent idx="114">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="116">research</governor>
+            <dependent idx="115">medical</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="14">expanding</governor>
+            <dependent idx="116">research</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">includes</governor>
+            <dependent idx="117">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">includes</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">ACA</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">includes</governor>
+            <dependent idx="2">ACA</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">provisions</governor>
+            <dependent idx="4">health-related</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">includes</governor>
+            <dependent idx="5">provisions</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">take</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">includes</governor>
+            <dependent idx="7">take</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">take</governor>
+            <dependent idx="8">effect</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">years</governor>
+            <dependent idx="9">over</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">years</governor>
+            <dependent idx="10">four</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="7">take</governor>
+            <dependent idx="11">years</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">take</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">expanding</governor>
+            <dependent idx="13">including</dependent>
+          </dep>
+          <dep type="advcl:including">
+            <governor idx="7">take</governor>
+            <dependent idx="14">expanding</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">eligibility</governor>
+            <dependent idx="15">Medicaid</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">expanding</governor>
+            <dependent idx="16">eligibility</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">people</governor>
+            <dependent idx="17">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="14">expanding</governor>
+            <dependent idx="18">people</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="18">people</governor>
+            <dependent idx="19">making</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="22">133</governor>
+            <dependent idx="20">up</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="22">133</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="23">percent</governor>
+            <dependent idx="22">133</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">making</governor>
+            <dependent idx="23">percent</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="28">level</governor>
+            <dependent idx="24">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="28">level</governor>
+            <dependent idx="25">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="28">level</governor>
+            <dependent idx="26">federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="28">level</governor>
+            <dependent idx="27">poverty</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="23">percent</governor>
+            <dependent idx="28">level</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="30">FPL</governor>
+            <dependent idx="29">-LRB-</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="28">level</governor>
+            <dependent idx="30">FPL</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="30">FPL</governor>
+            <dependent idx="31">-RRB-</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="34">2014</governor>
+            <dependent idx="32">starting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="34">2014</governor>
+            <dependent idx="33">in</dependent>
+          </dep>
+          <dep type="advcl:in">
+            <governor idx="19">making</governor>
+            <dependent idx="34">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">expanding</governor>
+            <dependent idx="35">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">expanding</governor>
+            <dependent idx="36">subsidizing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="38">premiums</governor>
+            <dependent idx="37">insurance</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="36">subsidizing</governor>
+            <dependent idx="38">premiums</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="40">people</governor>
+            <dependent idx="39">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="36">subsidizing</governor>
+            <dependent idx="40">people</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="40">people</governor>
+            <dependent idx="41">making</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="41">making</governor>
+            <dependent idx="42">up</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="45">percent</governor>
+            <dependent idx="43">to</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="45">percent</governor>
+            <dependent idx="44">400</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="41">making</governor>
+            <dependent idx="45">percent</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="48">FPL</governor>
+            <dependent idx="46">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="48">FPL</governor>
+            <dependent idx="47">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="45">percent</governor>
+            <dependent idx="48">FPL</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="51">88,000</governor>
+            <dependent idx="49">-LRB-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="51">88,000</governor>
+            <dependent idx="50">$</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="48">FPL</governor>
+            <dependent idx="51">88,000</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="53">family</governor>
+            <dependent idx="52">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="51">88,000</governor>
+            <dependent idx="53">family</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="55">four</governor>
+            <dependent idx="54">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="53">family</governor>
+            <dependent idx="55">four</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="57">2010</governor>
+            <dependent idx="56">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="51">88,000</governor>
+            <dependent idx="57">2010</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="51">88,000</governor>
+            <dependent idx="58">-RRB-</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="75">percent</governor>
+            <dependent idx="59">so</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="65">payment</governor>
+            <dependent idx="60">their</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="65">payment</governor>
+            <dependent idx="61">maximum</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="65">payment</governor>
+            <dependent idx="62">``</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="65">payment</governor>
+            <dependent idx="63">out-of-pocket</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="65">payment</governor>
+            <dependent idx="64">''</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="75">percent</governor>
+            <dependent idx="65">payment</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="68">premiums</governor>
+            <dependent idx="66">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="68">premiums</governor>
+            <dependent idx="67">annual</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="65">payment</governor>
+            <dependent idx="68">premiums</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="75">percent</governor>
+            <dependent idx="69">will</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="75">percent</governor>
+            <dependent idx="70">be</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="75">percent</governor>
+            <dependent idx="71">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="74">9.5</governor>
+            <dependent idx="72">2</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="74">9.5</governor>
+            <dependent idx="73">to</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="75">percent</governor>
+            <dependent idx="74">9.5</dependent>
+          </dep>
+          <dep type="advcl:from">
+            <governor idx="41">making</governor>
+            <dependent idx="75">percent</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="77">income</governor>
+            <dependent idx="76">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="75">percent</governor>
+            <dependent idx="77">income</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">expanding</governor>
+            <dependent idx="78">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">expanding</governor>
+            <dependent idx="79">providing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="79">providing</governor>
+            <dependent idx="80">incentives</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="82">businesses</governor>
+            <dependent idx="81">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="80">incentives</governor>
+            <dependent idx="82">businesses</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="84">provide</governor>
+            <dependent idx="83">to</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="79">providing</governor>
+            <dependent idx="84">provide</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="87">benefits</governor>
+            <dependent idx="85">health</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="87">benefits</governor>
+            <dependent idx="86">care</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="84">provide</governor>
+            <dependent idx="87">benefits</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">expanding</governor>
+            <dependent idx="88">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">expanding</governor>
+            <dependent idx="89">prohibiting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="89">prohibiting</governor>
+            <dependent idx="90">denial</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="92">coverage</governor>
+            <dependent idx="91">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="90">denial</governor>
+            <dependent idx="92">coverage</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="92">coverage</governor>
+            <dependent idx="93">and</dependent>
+          </dep>
+          <dep type="nmod:of" extra="true">
+            <governor idx="90">denial</governor>
+            <dependent idx="94">denial</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="92">coverage</governor>
+            <dependent idx="94">denial</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="96">claims</governor>
+            <dependent idx="95">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="90">denial</governor>
+            <dependent idx="96">claims</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="100">conditions</governor>
+            <dependent idx="97">based</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="97">based</governor>
+            <dependent idx="98">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="100">conditions</governor>
+            <dependent idx="99">pre-existing</dependent>
+          </dep>
+          <dep type="advcl:based_on">
+            <governor idx="89">prohibiting</governor>
+            <dependent idx="100">conditions</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">expanding</governor>
+            <dependent idx="101">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">expanding</governor>
+            <dependent idx="102">establishing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="105">exchanges</governor>
+            <dependent idx="103">health</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="105">exchanges</governor>
+            <dependent idx="104">insurance</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="102">establishing</governor>
+            <dependent idx="105">exchanges</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">expanding</governor>
+            <dependent idx="106">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">expanding</governor>
+            <dependent idx="107">prohibiting</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="110">caps</governor>
+            <dependent idx="108">annual</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="110">caps</governor>
+            <dependent idx="109">coverage</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="107">prohibiting</governor>
+            <dependent idx="110">caps</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="110">caps</governor>
+            <dependent idx="111">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="110">caps</governor>
+            <dependent idx="112">and</dependent>
+          </dep>
+          <dep type="dobj" extra="true">
+            <governor idx="107">prohibiting</governor>
+            <dependent idx="113">support</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="110">caps</governor>
+            <dependent idx="113">support</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="116">research</governor>
+            <dependent idx="114">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="116">research</governor>
+            <dependent idx="115">medical</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="14">expanding</governor>
+            <dependent idx="116">research</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">includes</governor>
+            <dependent idx="117">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>According</word>
+            <lemma>accord</lemma>
+            <CharacterOffsetBegin>686</CharacterOffsetBegin>
+            <CharacterOffsetEnd>695</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>696</CharacterOffsetBegin>
+            <CharacterOffsetEnd>698</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>White</word>
+            <lemma>White</lemma>
+            <CharacterOffsetBegin>699</CharacterOffsetBegin>
+            <CharacterOffsetEnd>704</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>House</word>
+            <lemma>House</lemma>
+            <CharacterOffsetBegin>705</CharacterOffsetBegin>
+            <CharacterOffsetEnd>710</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>711</CharacterOffsetBegin>
+            <CharacterOffsetEnd>714</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Congressional</word>
+            <lemma>Congressional</lemma>
+            <CharacterOffsetBegin>715</CharacterOffsetBegin>
+            <CharacterOffsetEnd>728</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Budget</word>
+            <lemma>Budget</lemma>
+            <CharacterOffsetBegin>729</CharacterOffsetBegin>
+            <CharacterOffsetEnd>735</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Office</word>
+            <lemma>Office</lemma>
+            <CharacterOffsetBegin>736</CharacterOffsetBegin>
+            <CharacterOffsetEnd>742</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>figures</word>
+            <lemma>figure</lemma>
+            <CharacterOffsetBegin>743</CharacterOffsetBegin>
+            <CharacterOffsetEnd>750</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>750</CharacterOffsetBegin>
+            <CharacterOffsetEnd>751</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>752</CharacterOffsetBegin>
+            <CharacterOffsetEnd>755</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>maximum</word>
+            <lemma>maximum</lemma>
+            <CharacterOffsetBegin>756</CharacterOffsetBegin>
+            <CharacterOffsetEnd>763</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>share</word>
+            <lemma>share</lemma>
+            <CharacterOffsetBegin>764</CharacterOffsetBegin>
+            <CharacterOffsetEnd>769</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>770</CharacterOffsetBegin>
+            <CharacterOffsetEnd>772</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>income</word>
+            <lemma>income</lemma>
+            <CharacterOffsetBegin>773</CharacterOffsetBegin>
+            <CharacterOffsetEnd>779</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>780</CharacterOffsetBegin>
+            <CharacterOffsetEnd>784</CharacterOffsetEnd>
+            <POS>WDT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>enrollees</word>
+            <lemma>enrollee</lemma>
+            <CharacterOffsetBegin>785</CharacterOffsetBegin>
+            <CharacterOffsetEnd>794</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>would</word>
+            <lemma>would</lemma>
+            <CharacterOffsetBegin>795</CharacterOffsetBegin>
+            <CharacterOffsetEnd>800</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>have</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>801</CharacterOffsetBegin>
+            <CharacterOffsetEnd>805</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>806</CharacterOffsetBegin>
+            <CharacterOffsetEnd>808</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>pay</word>
+            <lemma>pay</lemma>
+            <CharacterOffsetBegin>809</CharacterOffsetBegin>
+            <CharacterOffsetEnd>812</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>would</word>
+            <lemma>would</lemma>
+            <CharacterOffsetBegin>813</CharacterOffsetBegin>
+            <CharacterOffsetEnd>818</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>vary</word>
+            <lemma>vary</lemma>
+            <CharacterOffsetBegin>819</CharacterOffsetBegin>
+            <CharacterOffsetEnd>823</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>depending</word>
+            <lemma>depend</lemma>
+            <CharacterOffsetBegin>824</CharacterOffsetBegin>
+            <CharacterOffsetEnd>833</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>834</CharacterOffsetBegin>
+            <CharacterOffsetEnd>836</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>their</word>
+            <lemma>they</lemma>
+            <CharacterOffsetBegin>837</CharacterOffsetBegin>
+            <CharacterOffsetEnd>842</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="27">
+            <word>income</word>
+            <lemma>income</lemma>
+            <CharacterOffsetBegin>843</CharacterOffsetBegin>
+            <CharacterOffsetEnd>849</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="28">
+            <word>relative</word>
+            <lemma>relative</lemma>
+            <CharacterOffsetBegin>850</CharacterOffsetBegin>
+            <CharacterOffsetEnd>858</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="29">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>859</CharacterOffsetBegin>
+            <CharacterOffsetEnd>861</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="30">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>862</CharacterOffsetBegin>
+            <CharacterOffsetEnd>865</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="31">
+            <word>federal</word>
+            <lemma>federal</lemma>
+            <CharacterOffsetBegin>866</CharacterOffsetBegin>
+            <CharacterOffsetEnd>873</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="32">
+            <word>poverty</word>
+            <lemma>poverty</lemma>
+            <CharacterOffsetBegin>874</CharacterOffsetBegin>
+            <CharacterOffsetEnd>881</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="33">
+            <word>level</word>
+            <lemma>level</lemma>
+            <CharacterOffsetBegin>882</CharacterOffsetBegin>
+            <CharacterOffsetEnd>887</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="34">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>887</CharacterOffsetBegin>
+            <CharacterOffsetEnd>888</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (VBG According) (PP (TO to) (NP (NNP White) (NNP House) (CC and) (NNP Congressional) (NNP Budget) (NNP Office) (NNS figures)))) (, ,) (NP (NP (DT the) (JJ maximum) (NN share)) (PP (IN of) (NP (NP (NN income)) (SBAR (WHNP (WDT that)) (S (NP (NNS enrollees)) (VP (MD would) (VP (VB have) (S (VP (TO to) (VP (VB pay))))))))))) (VP (MD would) (VP (VB vary) (PP (VBG depending) (PP (IN on) (NP (NP (PRP$ their) (NN income)) (ADVP (JJ relative) (PP (TO to) (NP (DT the) (JJ federal) (NN poverty) (NN level))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="23">vary</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">House</governor>
+            <dependent idx="1">According</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="1">According</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">House</governor>
+            <dependent idx="3">White</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="23">vary</governor>
+            <dependent idx="4">House</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">House</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">figures</governor>
+            <dependent idx="6">Congressional</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">figures</governor>
+            <dependent idx="7">Budget</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">figures</governor>
+            <dependent idx="8">Office</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">House</governor>
+            <dependent idx="9">figures</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="23">vary</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">share</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">share</governor>
+            <dependent idx="12">maximum</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">vary</governor>
+            <dependent idx="13">share</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">income</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="13">share</governor>
+            <dependent idx="15">income</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">pay</governor>
+            <dependent idx="16">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">have</governor>
+            <dependent idx="17">enrollees</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">have</governor>
+            <dependent idx="18">would</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="15">income</governor>
+            <dependent idx="19">have</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="21">pay</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="19">have</governor>
+            <dependent idx="21">pay</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="23">vary</governor>
+            <dependent idx="22">would</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="27">income</governor>
+            <dependent idx="24">depending</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="27">income</governor>
+            <dependent idx="25">on</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="27">income</governor>
+            <dependent idx="26">their</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="23">vary</governor>
+            <dependent idx="27">income</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="27">income</governor>
+            <dependent idx="28">relative</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="33">level</governor>
+            <dependent idx="29">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="33">level</governor>
+            <dependent idx="30">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="33">level</governor>
+            <dependent idx="31">federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="33">level</governor>
+            <dependent idx="32">poverty</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="28">relative</governor>
+            <dependent idx="33">level</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="23">vary</governor>
+            <dependent idx="34">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="23">vary</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">House</governor>
+            <dependent idx="1">According</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="1">According</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">House</governor>
+            <dependent idx="3">White</dependent>
+          </dep>
+          <dep type="nmod:according_to">
+            <governor idx="23">vary</governor>
+            <dependent idx="4">House</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">House</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">figures</governor>
+            <dependent idx="6">Congressional</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">figures</governor>
+            <dependent idx="7">Budget</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">figures</governor>
+            <dependent idx="8">Office</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="4">House</governor>
+            <dependent idx="9">figures</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="23">vary</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">share</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">share</governor>
+            <dependent idx="12">maximum</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">vary</governor>
+            <dependent idx="13">share</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">income</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="13">share</governor>
+            <dependent idx="15">income</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">pay</governor>
+            <dependent idx="16">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">have</governor>
+            <dependent idx="17">enrollees</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">have</governor>
+            <dependent idx="18">would</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="15">income</governor>
+            <dependent idx="19">have</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="21">pay</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="19">have</governor>
+            <dependent idx="21">pay</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="23">vary</governor>
+            <dependent idx="22">would</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="27">income</governor>
+            <dependent idx="24">depending</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="27">income</governor>
+            <dependent idx="25">on</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="27">income</governor>
+            <dependent idx="26">their</dependent>
+          </dep>
+          <dep type="advcl:on">
+            <governor idx="23">vary</governor>
+            <dependent idx="27">income</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="27">income</governor>
+            <dependent idx="28">relative</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="33">level</governor>
+            <dependent idx="29">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="33">level</governor>
+            <dependent idx="30">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="33">level</governor>
+            <dependent idx="31">federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="33">level</governor>
+            <dependent idx="32">poverty</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="28">relative</governor>
+            <dependent idx="33">level</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="23">vary</governor>
+            <dependent idx="34">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="23">vary</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">House</governor>
+            <dependent idx="1">According</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="1">According</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">House</governor>
+            <dependent idx="3">White</dependent>
+          </dep>
+          <dep type="nmod:according_to">
+            <governor idx="23">vary</governor>
+            <dependent idx="4">House</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">House</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">figures</governor>
+            <dependent idx="6">Congressional</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">figures</governor>
+            <dependent idx="7">Budget</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">figures</governor>
+            <dependent idx="8">Office</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="4">House</governor>
+            <dependent idx="9">figures</dependent>
+          </dep>
+          <dep type="nmod:according_to" extra="true">
+            <governor idx="23">vary</governor>
+            <dependent idx="9">figures</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="23">vary</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">share</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">share</governor>
+            <dependent idx="12">maximum</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">vary</governor>
+            <dependent idx="13">share</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">income</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="13">share</governor>
+            <dependent idx="15">income</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">pay</governor>
+            <dependent idx="16">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">have</governor>
+            <dependent idx="17">enrollees</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">have</governor>
+            <dependent idx="18">would</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="15">income</governor>
+            <dependent idx="19">have</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="21">pay</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="19">have</governor>
+            <dependent idx="21">pay</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="23">vary</governor>
+            <dependent idx="22">would</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="27">income</governor>
+            <dependent idx="24">depending</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="27">income</governor>
+            <dependent idx="25">on</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="27">income</governor>
+            <dependent idx="26">their</dependent>
+          </dep>
+          <dep type="advcl:on">
+            <governor idx="23">vary</governor>
+            <dependent idx="27">income</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="27">income</governor>
+            <dependent idx="28">relative</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="33">level</governor>
+            <dependent idx="29">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="33">level</governor>
+            <dependent idx="30">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="33">level</governor>
+            <dependent idx="31">federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="33">level</governor>
+            <dependent idx="32">poverty</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="28">relative</governor>
+            <dependent idx="33">level</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="23">vary</governor>
+            <dependent idx="34">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>18</start>
+          <end>35</end>
+          <head>18</head>
+          <text>people making up to 133 percent of the federal poverty level -LRB- FPL -RRB- starting in 2014</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>60</start>
+          <end>61</end>
+          <head>60</head>
+          <text>their</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>25</start>
+          <end>32</end>
+          <head>28</head>
+          <text>the federal poverty level -LRB- FPL -RRB-</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>30</start>
+          <end>34</end>
+          <head>33</head>
+          <text>the federal poverty level</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>2</sentence>
+          <start>17</start>
+          <end>18</end>
+          <head>17</head>
+          <text>enrollees</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>26</start>
+          <end>27</end>
+          <head>26</head>
+          <text>their</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

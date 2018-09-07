@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>^</word>
+            <lemma>^</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Politics</word>
+            <lemma>politics</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>WDT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Work</word>
+            <lemma>work</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>``</word>
+            <lemma>``</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>``</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>U.S.</word>
+            <lemma>U.S.</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="8">
+            <word>GDP</word>
+            <lemma>GDP</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="9">
+            <word>Growth</word>
+            <lemma>Growth</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="10">
+            <word>Relative</word>
+            <lemma>relative</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="11">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="12">
+            <word>Original</word>
+            <lemma>original</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="13">
+            <word>NATO</word>
+            <lemma>NATO</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="14">
+            <word>Members</word>
+            <lemma>Members</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="15">
+            <word>''</word>
+            <lemma>''</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>''</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>Politics</word>
+            <lemma>politics</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>WDT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>Work</word>
+            <lemma>work</lemma>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>March</word>
+            <lemma>March</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2015-03-09</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2015-03-09</Timex>
+          </token>
+          <token id="22">
+            <word>9</word>
+            <lemma>9</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2015-03-09</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2015-03-09</Timex>
+          </token>
+          <token id="23">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2015-03-09</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2015-03-09</Timex>
+          </token>
+          <token id="24">
+            <word>2015</word>
+            <lemma>2015</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2015-03-09</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2015-03-09</Timex>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NP (NN ^) (NNS Politics)) (SBAR (WHNP (WDT that)) (S (VP (VBP Work) (, ,) (NP (NP (`` ``) (NP (NNP U.S.) (NNP GDP) (NNP Growth) (JJ Relative)) (PP (TO to) (NP (JJ Original) (NNP NATO) (NNPS Members))) ('' '')) (, ,) (NP (NP (NNS Politics)) (SBAR (WHNP (WDT that)) (S (VP (VBP Work)))))))))) (, ,) (NP (NNP March) (CD 9) (, ,) (CD 2015))))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Politics</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Politics</governor>
+            <dependent idx="1">^</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">Work</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">Politics</governor>
+            <dependent idx="4">Work</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Work</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">Growth</governor>
+            <dependent idx="6">``</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Growth</governor>
+            <dependent idx="7">U.S.</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Growth</governor>
+            <dependent idx="8">GDP</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Work</governor>
+            <dependent idx="9">Growth</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">Growth</governor>
+            <dependent idx="10">Relative</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Members</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">Members</governor>
+            <dependent idx="12">Original</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Members</governor>
+            <dependent idx="13">NATO</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="9">Growth</governor>
+            <dependent idx="14">Members</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">Growth</governor>
+            <dependent idx="15">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">Growth</governor>
+            <dependent idx="16">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="9">Growth</governor>
+            <dependent idx="17">Politics</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">Work</governor>
+            <dependent idx="18">that</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="17">Politics</governor>
+            <dependent idx="19">Work</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Politics</governor>
+            <dependent idx="20">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Politics</governor>
+            <dependent idx="21">March</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="21">March</governor>
+            <dependent idx="22">9</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="21">March</governor>
+            <dependent idx="23">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="21">March</governor>
+            <dependent idx="24">2015</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Politics</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Politics</governor>
+            <dependent idx="1">^</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">Work</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">Politics</governor>
+            <dependent idx="4">Work</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Work</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">Growth</governor>
+            <dependent idx="6">``</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Growth</governor>
+            <dependent idx="7">U.S.</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Growth</governor>
+            <dependent idx="8">GDP</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Work</governor>
+            <dependent idx="9">Growth</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">Growth</governor>
+            <dependent idx="10">Relative</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Members</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">Members</governor>
+            <dependent idx="12">Original</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Members</governor>
+            <dependent idx="13">NATO</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="9">Growth</governor>
+            <dependent idx="14">Members</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">Growth</governor>
+            <dependent idx="15">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">Growth</governor>
+            <dependent idx="16">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="9">Growth</governor>
+            <dependent idx="17">Politics</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">Work</governor>
+            <dependent idx="18">that</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="17">Politics</governor>
+            <dependent idx="19">Work</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Politics</governor>
+            <dependent idx="20">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Politics</governor>
+            <dependent idx="21">March</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="21">March</governor>
+            <dependent idx="22">9</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="21">March</governor>
+            <dependent idx="23">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="21">March</governor>
+            <dependent idx="24">2015</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Politics</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Politics</governor>
+            <dependent idx="1">^</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">Work</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">Politics</governor>
+            <dependent idx="4">Work</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Work</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">Growth</governor>
+            <dependent idx="6">``</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Growth</governor>
+            <dependent idx="7">U.S.</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Growth</governor>
+            <dependent idx="8">GDP</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Work</governor>
+            <dependent idx="9">Growth</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">Growth</governor>
+            <dependent idx="10">Relative</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Members</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">Members</governor>
+            <dependent idx="12">Original</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Members</governor>
+            <dependent idx="13">NATO</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="9">Growth</governor>
+            <dependent idx="14">Members</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">Growth</governor>
+            <dependent idx="15">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">Growth</governor>
+            <dependent idx="16">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="9">Growth</governor>
+            <dependent idx="17">Politics</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">Work</governor>
+            <dependent idx="18">that</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="17">Politics</governor>
+            <dependent idx="19">Work</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Politics</governor>
+            <dependent idx="20">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Politics</governor>
+            <dependent idx="21">March</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="21">March</governor>
+            <dependent idx="22">9</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="21">March</governor>
+            <dependent idx="23">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="21">March</governor>
+            <dependent idx="24">2015</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

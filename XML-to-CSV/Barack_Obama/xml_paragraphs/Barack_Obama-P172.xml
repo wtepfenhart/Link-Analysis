@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>^</word>
+            <lemma>^</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Scott</word>
+            <lemma>Scott</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>2011</word>
+            <lemma>2011</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2011</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2011</Timex>
+          </token>
+          <token id="5">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>pp.</word>
+            <lemma>pp.</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>214</word>
+            <lemma>214</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>214.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>294</word>
+            <lemma>294</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>294.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>317</word>
+            <lemma>317</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>317.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>--</word>
+            <lemma>--</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>346</word>
+            <lemma>346</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>346.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NP (NNP ^) (NNP Scott)) (PRN (-LRB- -LRB-) (NP (CD 2011)) (-RRB- -RRB-))) (, ,) (NP (NN pp.) (CD 214)) (, ,)) (NP (NP (CD 294)) (, ,) (NP (CD 317) (: --) (CD 346))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Scott</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Scott</governor>
+            <dependent idx="1">^</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">2011</governor>
+            <dependent idx="3">-LRB-</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Scott</governor>
+            <dependent idx="4">2011</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">2011</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Scott</governor>
+            <dependent idx="7">pp.</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">pp.</governor>
+            <dependent idx="8">214</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Scott</governor>
+            <dependent idx="10">294</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">294</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="14">346</governor>
+            <dependent idx="12">317</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">346</governor>
+            <dependent idx="13">--</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="10">294</governor>
+            <dependent idx="14">346</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Scott</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Scott</governor>
+            <dependent idx="1">^</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">2011</governor>
+            <dependent idx="3">-LRB-</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Scott</governor>
+            <dependent idx="4">2011</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">2011</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Scott</governor>
+            <dependent idx="7">pp.</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">pp.</governor>
+            <dependent idx="8">214</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Scott</governor>
+            <dependent idx="10">294</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">294</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="14">346</governor>
+            <dependent idx="12">317</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">346</governor>
+            <dependent idx="13">--</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="10">294</governor>
+            <dependent idx="14">346</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Scott</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Scott</governor>
+            <dependent idx="1">^</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">2011</governor>
+            <dependent idx="3">-LRB-</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Scott</governor>
+            <dependent idx="4">2011</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">2011</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Scott</governor>
+            <dependent idx="7">pp.</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">pp.</governor>
+            <dependent idx="8">214</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Scott</governor>
+            <dependent idx="10">294</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">294</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="14">346</governor>
+            <dependent idx="12">317</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">346</governor>
+            <dependent idx="13">--</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="10">294</governor>
+            <dependent idx="14">346</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Scott</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>6</end>
+          <head>2</head>
+          <text>^ Scott -LRB- 2011 -RRB-</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>7</start>
+          <end>9</end>
+          <head>7</head>
+          <text>pp. 214</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

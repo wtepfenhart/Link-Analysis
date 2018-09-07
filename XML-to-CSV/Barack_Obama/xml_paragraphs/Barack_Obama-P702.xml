@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Financial</word>
+            <lemma>Financial</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>information</word>
+            <lemma>information</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>federal</word>
+            <lemma>federal</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>office</word>
+            <lemma>office</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Federal</word>
+            <lemma>Federal</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Election</word>
+            <lemma>Election</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Commission</word>
+            <lemma>Commission</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNP Financial)) (NP (NP (NP (NN information)) (PRN (-LRB- -LRB-) (NP (JJ federal) (NN office)) (-RRB- -RRB-))) (PP (IN at) (NP (DT the) (NNP Federal) (NNP Election) (NNP Commission)))))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Financial</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Financial</governor>
+            <dependent idx="2">information</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">office</governor>
+            <dependent idx="3">-LRB-</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">office</governor>
+            <dependent idx="4">federal</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">information</governor>
+            <dependent idx="5">office</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">office</governor>
+            <dependent idx="6">-RRB-</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Commission</governor>
+            <dependent idx="7">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Commission</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Commission</governor>
+            <dependent idx="9">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Commission</governor>
+            <dependent idx="10">Election</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">information</governor>
+            <dependent idx="11">Commission</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Financial</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Financial</governor>
+            <dependent idx="2">information</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">office</governor>
+            <dependent idx="3">-LRB-</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">office</governor>
+            <dependent idx="4">federal</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">information</governor>
+            <dependent idx="5">office</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">office</governor>
+            <dependent idx="6">-RRB-</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Commission</governor>
+            <dependent idx="7">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Commission</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Commission</governor>
+            <dependent idx="9">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Commission</governor>
+            <dependent idx="10">Election</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="2">information</governor>
+            <dependent idx="11">Commission</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Financial</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Financial</governor>
+            <dependent idx="2">information</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">office</governor>
+            <dependent idx="3">-LRB-</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">office</governor>
+            <dependent idx="4">federal</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">information</governor>
+            <dependent idx="5">office</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">office</governor>
+            <dependent idx="6">-RRB-</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Commission</governor>
+            <dependent idx="7">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Commission</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Commission</governor>
+            <dependent idx="9">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Commission</governor>
+            <dependent idx="10">Election</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="2">information</governor>
+            <dependent idx="11">Commission</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

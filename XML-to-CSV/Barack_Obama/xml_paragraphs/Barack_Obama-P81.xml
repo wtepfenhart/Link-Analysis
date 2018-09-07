@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>On</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>November</word>
+            <lemma>November</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014-11-10</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2014-11-10</Timex>
+          </token>
+          <token id="3">
+            <word>10</word>
+            <lemma>10</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014-11-10</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2014-11-10</Timex>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014-11-10</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2014-11-10</Timex>
+          </token>
+          <token id="5">
+            <word>2014</word>
+            <lemma>2014</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014-11-10</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2014-11-10</Timex>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>President</word>
+            <lemma>President</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Obama</word>
+            <lemma>Obama</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>recommended</word>
+            <lemma>recommend</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Federal</word>
+            <lemma>Federal</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Communications</word>
+            <lemma>Communications</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>Commission</word>
+            <lemma>Commission</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>reclassify</word>
+            <lemma>reclassify</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>broadband</word>
+            <lemma>broadband</lemma>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>Internet</word>
+            <lemma>internet</lemma>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>service</word>
+            <lemma>service</lemma>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>as</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>telecommunications</word>
+            <lemma>telecommunications</lemma>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>service</word>
+            <lemma>service</lemma>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>157</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>158</CharacterOffsetBegin>
+            <CharacterOffsetEnd>160</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>order</word>
+            <lemma>order</lemma>
+            <CharacterOffsetBegin>161</CharacterOffsetBegin>
+            <CharacterOffsetEnd>166</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>167</CharacterOffsetBegin>
+            <CharacterOffsetEnd>169</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>preserve</word>
+            <lemma>preserve</lemma>
+            <CharacterOffsetBegin>170</CharacterOffsetBegin>
+            <CharacterOffsetEnd>178</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>net</word>
+            <lemma>net</lemma>
+            <CharacterOffsetBegin>179</CharacterOffsetBegin>
+            <CharacterOffsetEnd>182</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="27">
+            <word>neutrality</word>
+            <lemma>neutrality</lemma>
+            <CharacterOffsetBegin>183</CharacterOffsetBegin>
+            <CharacterOffsetEnd>193</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="28">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>193</CharacterOffsetBegin>
+            <CharacterOffsetEnd>194</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN On) (NP (NNP November) (CD 10) (, ,) (CD 2014))) (, ,) (NP (NNP President) (NNP Obama)) (VP (VBD recommended) (NP (NP (DT the) (NNP Federal) (NNP Communications) (NNP Commission) (NN reclassify) (NN broadband) (NN Internet) (NN service)) (PP (IN as) (NP (DT a) (NN telecommunications) (NN service)))) (SBAR (IN in) (NN order) (S (VP (TO to) (VP (VB preserve) (NP (JJ net) (NN neutrality))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">recommended</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">November</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="9">recommended</governor>
+            <dependent idx="2">November</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">November</governor>
+            <dependent idx="3">10</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">November</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">November</governor>
+            <dependent idx="5">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">recommended</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Obama</governor>
+            <dependent idx="7">President</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">recommended</governor>
+            <dependent idx="8">Obama</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">service</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="11">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="12">Communications</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="13">Commission</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="14">reclassify</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="15">broadband</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="16">Internet</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">recommended</governor>
+            <dependent idx="17">service</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">service</governor>
+            <dependent idx="18">as</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">service</governor>
+            <dependent idx="19">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">service</governor>
+            <dependent idx="20">telecommunications</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="17">service</governor>
+            <dependent idx="21">service</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="25">preserve</governor>
+            <dependent idx="22">in</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="22">in</governor>
+            <dependent idx="23">order</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="25">preserve</governor>
+            <dependent idx="24">to</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="9">recommended</governor>
+            <dependent idx="25">preserve</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="27">neutrality</governor>
+            <dependent idx="26">net</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="25">preserve</governor>
+            <dependent idx="27">neutrality</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">recommended</governor>
+            <dependent idx="28">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">recommended</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">November</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="9">recommended</governor>
+            <dependent idx="2">November</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">November</governor>
+            <dependent idx="3">10</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">November</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">November</governor>
+            <dependent idx="5">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">recommended</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Obama</governor>
+            <dependent idx="7">President</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">recommended</governor>
+            <dependent idx="8">Obama</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">service</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="11">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="12">Communications</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="13">Commission</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="14">reclassify</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="15">broadband</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="16">Internet</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">recommended</governor>
+            <dependent idx="17">service</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">service</governor>
+            <dependent idx="18">as</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">service</governor>
+            <dependent idx="19">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">service</governor>
+            <dependent idx="20">telecommunications</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="17">service</governor>
+            <dependent idx="21">service</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="25">preserve</governor>
+            <dependent idx="22">in</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="22">in</governor>
+            <dependent idx="23">order</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="25">preserve</governor>
+            <dependent idx="24">to</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="9">recommended</governor>
+            <dependent idx="25">preserve</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="27">neutrality</governor>
+            <dependent idx="26">net</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="25">preserve</governor>
+            <dependent idx="27">neutrality</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">recommended</governor>
+            <dependent idx="28">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">recommended</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">November</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="9">recommended</governor>
+            <dependent idx="2">November</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">November</governor>
+            <dependent idx="3">10</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">November</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">November</governor>
+            <dependent idx="5">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">recommended</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Obama</governor>
+            <dependent idx="7">President</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">recommended</governor>
+            <dependent idx="8">Obama</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">service</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="11">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="12">Communications</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="13">Commission</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="14">reclassify</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="15">broadband</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">service</governor>
+            <dependent idx="16">Internet</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">recommended</governor>
+            <dependent idx="17">service</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">service</governor>
+            <dependent idx="18">as</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">service</governor>
+            <dependent idx="19">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">service</governor>
+            <dependent idx="20">telecommunications</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="17">service</governor>
+            <dependent idx="21">service</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="25">preserve</governor>
+            <dependent idx="22">in</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="22">in</governor>
+            <dependent idx="23">order</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="25">preserve</governor>
+            <dependent idx="24">to</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="9">recommended</governor>
+            <dependent idx="25">preserve</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="27">neutrality</governor>
+            <dependent idx="26">net</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="25">preserve</governor>
+            <dependent idx="27">neutrality</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">recommended</governor>
+            <dependent idx="28">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>On</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>195</CharacterOffsetBegin>
+            <CharacterOffsetEnd>197</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>February</word>
+            <lemma>February</lemma>
+            <CharacterOffsetBegin>198</CharacterOffsetBegin>
+            <CharacterOffsetEnd>206</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2013-02-12</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DATE">2013-02-12</Timex>
+          </token>
+          <token id="3">
+            <word>12</word>
+            <lemma>12</lemma>
+            <CharacterOffsetBegin>207</CharacterOffsetBegin>
+            <CharacterOffsetEnd>209</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2013-02-12</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DATE">2013-02-12</Timex>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>209</CharacterOffsetBegin>
+            <CharacterOffsetEnd>210</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2013-02-12</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DATE">2013-02-12</Timex>
+          </token>
+          <token id="5">
+            <word>2013</word>
+            <lemma>2013</lemma>
+            <CharacterOffsetBegin>211</CharacterOffsetBegin>
+            <CharacterOffsetEnd>215</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2013-02-12</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DATE">2013-02-12</Timex>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>215</CharacterOffsetBegin>
+            <CharacterOffsetEnd>216</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>President</word>
+            <lemma>President</lemma>
+            <CharacterOffsetBegin>217</CharacterOffsetBegin>
+            <CharacterOffsetEnd>226</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Obama</word>
+            <lemma>Obama</lemma>
+            <CharacterOffsetBegin>227</CharacterOffsetBegin>
+            <CharacterOffsetEnd>232</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>signed</word>
+            <lemma>sign</lemma>
+            <CharacterOffsetBegin>233</CharacterOffsetBegin>
+            <CharacterOffsetEnd>239</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Executive</word>
+            <lemma>Executive</lemma>
+            <CharacterOffsetBegin>240</CharacterOffsetBegin>
+            <CharacterOffsetEnd>249</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Order</word>
+            <lemma>Order</lemma>
+            <CharacterOffsetBegin>250</CharacterOffsetBegin>
+            <CharacterOffsetEnd>255</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>13636</word>
+            <lemma>13636</lemma>
+            <CharacterOffsetBegin>256</CharacterOffsetBegin>
+            <CharacterOffsetEnd>261</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>13636.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>261</CharacterOffsetBegin>
+            <CharacterOffsetEnd>262</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>``</word>
+            <lemma>``</lemma>
+            <CharacterOffsetBegin>263</CharacterOffsetBegin>
+            <CharacterOffsetEnd>264</CharacterOffsetEnd>
+            <POS>``</POS>
+            <NER>O</NER>
+          </token>
+          <token id="15">
+            <word>Improving</word>
+            <lemma>improving</lemma>
+            <CharacterOffsetBegin>264</CharacterOffsetBegin>
+            <CharacterOffsetEnd>273</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="16">
+            <word>Critical</word>
+            <lemma>critical</lemma>
+            <CharacterOffsetBegin>274</CharacterOffsetBegin>
+            <CharacterOffsetEnd>282</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="17">
+            <word>Infrastructure</word>
+            <lemma>infrastructure</lemma>
+            <CharacterOffsetBegin>283</CharacterOffsetBegin>
+            <CharacterOffsetEnd>297</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="18">
+            <word>Cybersecurity</word>
+            <lemma>cybersecurity</lemma>
+            <CharacterOffsetBegin>298</CharacterOffsetBegin>
+            <CharacterOffsetEnd>311</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="19">
+            <word>''</word>
+            <lemma>''</lemma>
+            <CharacterOffsetBegin>311</CharacterOffsetBegin>
+            <CharacterOffsetEnd>312</CharacterOffsetEnd>
+            <POS>''</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>312</CharacterOffsetBegin>
+            <CharacterOffsetEnd>313</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN On) (NP (NNP February) (CD 12) (, ,) (CD 2013))) (, ,) (NP (NNP President) (NNP Obama)) (VP (VBD signed) (NP (NP (NNP Executive) (NNP Order) (CD 13636)) (, ,) (`` ``) (NP (NP (NN Improving)) (NP (JJ Critical) (NN Infrastructure) (NN Cybersecurity))) ('' ''))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">signed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">February</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="9">signed</governor>
+            <dependent idx="2">February</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">February</governor>
+            <dependent idx="3">12</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">February</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">February</governor>
+            <dependent idx="5">2013</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">signed</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Obama</governor>
+            <dependent idx="7">President</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">signed</governor>
+            <dependent idx="8">Obama</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Order</governor>
+            <dependent idx="10">Executive</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">signed</governor>
+            <dependent idx="11">Order</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">Order</governor>
+            <dependent idx="12">13636</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Order</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Order</governor>
+            <dependent idx="14">``</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Order</governor>
+            <dependent idx="15">Improving</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">Cybersecurity</governor>
+            <dependent idx="16">Critical</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="18">Cybersecurity</governor>
+            <dependent idx="17">Infrastructure</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">Improving</governor>
+            <dependent idx="18">Cybersecurity</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Order</governor>
+            <dependent idx="19">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">signed</governor>
+            <dependent idx="20">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">signed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">February</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="9">signed</governor>
+            <dependent idx="2">February</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">February</governor>
+            <dependent idx="3">12</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">February</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">February</governor>
+            <dependent idx="5">2013</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">signed</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Obama</governor>
+            <dependent idx="7">President</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">signed</governor>
+            <dependent idx="8">Obama</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Order</governor>
+            <dependent idx="10">Executive</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">signed</governor>
+            <dependent idx="11">Order</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">Order</governor>
+            <dependent idx="12">13636</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Order</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Order</governor>
+            <dependent idx="14">``</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Order</governor>
+            <dependent idx="15">Improving</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">Cybersecurity</governor>
+            <dependent idx="16">Critical</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="18">Cybersecurity</governor>
+            <dependent idx="17">Infrastructure</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">Improving</governor>
+            <dependent idx="18">Cybersecurity</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Order</governor>
+            <dependent idx="19">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">signed</governor>
+            <dependent idx="20">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">signed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">February</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="9">signed</governor>
+            <dependent idx="2">February</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">February</governor>
+            <dependent idx="3">12</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">February</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">February</governor>
+            <dependent idx="5">2013</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">signed</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Obama</governor>
+            <dependent idx="7">President</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">signed</governor>
+            <dependent idx="8">Obama</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Order</governor>
+            <dependent idx="10">Executive</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">signed</governor>
+            <dependent idx="11">Order</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">Order</governor>
+            <dependent idx="12">13636</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Order</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Order</governor>
+            <dependent idx="14">``</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Order</governor>
+            <dependent idx="15">Improving</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">Cybersecurity</governor>
+            <dependent idx="16">Critical</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="18">Cybersecurity</governor>
+            <dependent idx="17">Infrastructure</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">Improving</governor>
+            <dependent idx="18">Cybersecurity</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Order</governor>
+            <dependent idx="19">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">signed</governor>
+            <dependent idx="20">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>7</start>
+          <end>9</end>
+          <head>8</head>
+          <text>President Obama</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>7</start>
+          <end>9</end>
+          <head>8</head>
+          <text>President Obama</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>2</sentence>
+          <start>10</start>
+          <end>13</end>
+          <head>11</head>
+          <text>Executive Order 13636</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>15</start>
+          <end>19</end>
+          <head>15</head>
+          <text>Improving Critical Infrastructure Cybersecurity</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

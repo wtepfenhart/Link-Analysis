@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Collected</word>
+            <lemma>collect</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>news</word>
+            <lemma>news</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>commentary</word>
+            <lemma>commentary</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Tampa</word>
+            <lemma>Tampa</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Bay</word>
+            <lemma>Bay</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Times</word>
+            <lemma>Times</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>PolitiFact.com</word>
+            <lemma>PolitiFact.com</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (VP (VBN Collected) (NP (NN news) (CC and) (NN commentary)) (PP (IN at) (NP (NP (DT the) (NNP Tampa) (NNP Bay) (NNP Times) (POS 's)) (NNP PolitiFact.com))))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Collected</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Collected</governor>
+            <dependent idx="2">news</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">news</governor>
+            <dependent idx="3">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">news</governor>
+            <dependent idx="4">commentary</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">PolitiFact.com</governor>
+            <dependent idx="5">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">Times</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Times</governor>
+            <dependent idx="7">Tampa</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Times</governor>
+            <dependent idx="8">Bay</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="11">PolitiFact.com</governor>
+            <dependent idx="9">Times</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Times</governor>
+            <dependent idx="10">'s</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Collected</governor>
+            <dependent idx="11">PolitiFact.com</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Collected</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Collected</governor>
+            <dependent idx="2">news</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">news</governor>
+            <dependent idx="3">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="2">news</governor>
+            <dependent idx="4">commentary</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">PolitiFact.com</governor>
+            <dependent idx="5">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">Times</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Times</governor>
+            <dependent idx="7">Tampa</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Times</governor>
+            <dependent idx="8">Bay</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="11">PolitiFact.com</governor>
+            <dependent idx="9">Times</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Times</governor>
+            <dependent idx="10">'s</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="1">Collected</governor>
+            <dependent idx="11">PolitiFact.com</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Collected</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Collected</governor>
+            <dependent idx="2">news</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">news</governor>
+            <dependent idx="3">and</dependent>
+          </dep>
+          <dep type="dobj" extra="true">
+            <governor idx="1">Collected</governor>
+            <dependent idx="4">commentary</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="2">news</governor>
+            <dependent idx="4">commentary</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">PolitiFact.com</governor>
+            <dependent idx="5">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">Times</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Times</governor>
+            <dependent idx="7">Tampa</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Times</governor>
+            <dependent idx="8">Bay</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="11">PolitiFact.com</governor>
+            <dependent idx="9">Times</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Times</governor>
+            <dependent idx="10">'s</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="1">Collected</governor>
+            <dependent idx="11">PolitiFact.com</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>
