@@ -1,5 +1,9 @@
-/*Mary Fatima Menges s1012284*/
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
 
+/*Mary Fatima Menges s1012284*/
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -11,65 +15,71 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
+/**
+ *
+ * @author Mary Fatima Menges
+ */
 public class htmlParse {
-	
-	
-	ArrayList<String> strs = new ArrayList<String>();
-	ArrayList<String> refs = new ArrayList<String>();
-	
-	public htmlParse(String whatToSearch) throws IOException{
 
-		int index = 0;
-		Elements links;
+    ArrayList<String> strs = new ArrayList<String>();
+    ArrayList<String> refs = new ArrayList<String>();
 
-		do{		
-			//wget
-			String url = "http://localhost:8080/en.wikipedia.org/wiki/Special:Search/" +  whatToSearch.replaceAll(" ", "_") + "?fulltext=y&xowa_page_index=" + index;
-			String input = "";
-			try {
-				input = wget(url);
-			} catch (MalformedURLException e) {
-				e.printStackTrace();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
+    public htmlParse(String whatToSearch, String httpServerPort, String wiki) throws IOException {
 
-			Document doc = Jsoup.parse(input, "UTF-8");
-			links = doc.select("a[href][title]:has(strong)"); // a with href and strong
-			parseOneHtml(links);
-			
-			index++;
-			
-		} while(links.size() != 0);
+        int index = 0;
+        Elements links;
 
-	}
-	
-	public ArrayList<String> getStrs(){
-		return strs;
-	}
-	
-	public ArrayList<String> getRefs(){
-		return refs;
-	}
-	
-	public void parseOneHtml(Elements el){	
-		for(int x = 0; x < el.size(); x++){
-			strs.add(el.get(x).text());
-			refs.add(el.get(x).attr("href"));
-		}
-		
-	}
-	
-	public static String wget(String url) throws MalformedURLException, IOException {		
+        do {
+            //original url "http://localhost:8008/en.wikipedia.org/wiki/Special:Search/"
+            //wget
+            String url = "http://localhost:" + httpServerPort + "/" + wiki + "/wiki/Special:Search/" 
+                    + whatToSearch.replaceAll(" ", "_") + "?fulltext=y&xowa_page_index="
+                    + index;
+            String input = "";
+            try {
+                input = wget(url);
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
 
-		URL u = new URL(url);
-		HttpURLConnection urlConn = (HttpURLConnection) u.openConnection();
-		String line = null;
-		StringBuilder tmp = new StringBuilder();
-		BufferedReader in = new BufferedReader(new InputStreamReader(urlConn.getInputStream()));
-		while ((line = in.readLine()) != null) {
-		  tmp.append(line);
-		}
-		return tmp.toString();
-	}
+            Document doc = Jsoup.parse(input, "UTF-8");
+            links = doc.select("a[href][title]:has(strong)"); // a with href and strong
+            parseOneHtml(links);
+
+            index++;
+
+        } while (links.size() != 0);
+
+    }
+
+    public ArrayList<String> getStrs() {
+        return strs;
+    }
+
+    public ArrayList<String> getRefs() {
+        return refs;
+    }
+
+    public void parseOneHtml(Elements el) {
+        for (int x = 0; x < el.size(); x++) {
+            strs.add(el.get(x).text());
+            refs.add(el.get(x).attr("href"));
+        }
+
+    }
+
+    public static String wget(String url) throws MalformedURLException, IOException {
+
+        URL u = new URL(url);
+        HttpURLConnection urlConn = (HttpURLConnection) u.openConnection();
+        String line = null;
+        StringBuilder tmp = new StringBuilder();
+        BufferedReader in = new BufferedReader(new InputStreamReader(urlConn.getInputStream()));
+        while ((line = in.readLine()) != null) {
+            tmp.append(line);
+        }
+        return tmp.toString();
+    }
 }
