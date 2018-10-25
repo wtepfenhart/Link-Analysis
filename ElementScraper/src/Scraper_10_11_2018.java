@@ -1,6 +1,7 @@
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -27,9 +28,7 @@ public class Scraper_10_11_2018 {
         try {
             input = wget(u);
         } catch (MalformedURLException e) {
-            e.printStackTrace();
         } catch (IOException e) {
-            e.printStackTrace();
         }
         doc = Jsoup.parse(input, "UTF-8");
     }
@@ -76,24 +75,76 @@ public class Scraper_10_11_2018 {
         return body;
     }
 
-    public void getInfoBox() {
-        Elements infoBox = doc.getElementsByClass("infobox vcard");
-        //Elements infoBoxBody = doc.getAllElements();
-        Element infoBoxBody = infoBox.get(0);
-        Elements myTest = infoBoxBody.getAllElements();
-        
-        for(Element e : myTest){
-            System.out.println(e.text());
+    public static String wget(String url) throws MalformedURLException, IOException {
+        URL u = new URL(url);
+        HttpURLConnection urlConn = (HttpURLConnection) u.openConnection();
+        String line;
+        StringBuilder tmp = new StringBuilder();
+        BufferedReader in = new BufferedReader(new InputStreamReader(urlConn.getInputStream()));
+        while ((line = in.readLine()) != null) {
+            tmp.append(line);
         }
+        return tmp.toString();
     }
 
-    public void traditionalScraper() {
+    public String getUrl() {
+        return url;
+    }
 
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public void getInfoBox(String outputFolder) {
+        Elements infoBoxTable = doc.getElementsByClass("infobox vcard");
+        if (infoBoxTable.isEmpty()) {
+            System.out.println("No infobox for " + this.getHeader());
+            return;
+        }
+        Element infoBoxBody = infoBoxTable.get(0); //gets the only infobox vcard
+        Elements infoBoxTRTags = infoBoxBody.getElementsByTag("tr");
+        
+        //Element infoBox = infoBoxBody.getAllElements().get(0);
+
+        String filePath = outputFolder + "/Paragraphs/" + this.getHeader().replaceAll(" ", "_") + "/text_paragraphs" + "/" + this.getHeader().replaceAll(" ", "_") + "-IB" + ".txt";
+        try {
+            PrintWriter out = new PrintWriter(filePath);
+            for (Element trTag : infoBoxTRTags){
+                out.println(trTag.text() + ".");
+            }
+            out.flush();
+            out.close();
+        } catch (FileNotFoundException ex) {
+            System.err.println("Caught IOException: " + ex.getMessage());
+        }
+    }
+    
+    public void scraperFullText(){
+        
+    }
+
+    /**
+     * Scrapes an entire page into paragraph form.
+     * 
+     * trying to build options for this.  
+     * 
+     * Under construction.
+     * @param line
+     * @param outputFolderPath
+     */
+    public void scraperPageByParagraph(String line, String outputFolderPath) {
+        Scraper_10_11_2018 scraper = new Scraper_10_11_2018(line);
+        String head = scraper.getHeader();// get the name of the person
+
+        String textFolderName = outputFolderPath + "/Paragraphs/" + head.replaceAll(" ", "_") + "/text_paragraphs";
+        new File(textFolderName).mkdirs();//create folder for each person
+        String xmlFolderName = outputFolderPath + "/Paragraphs/" + head.replaceAll(" ", "_") + "/xml_paragraphs";
+        new File(xmlFolderName).mkdirs();//create folder for each person
     }
 
     public static void main(String[] args) throws IOException {
-        String inputFilePath = null;
-        String outputFolderPath = null;
+        String inputFilePath;
+        String outputFolderPath;
 
         if (args.length == 2) {
             // Two arguments were provided
@@ -115,7 +166,7 @@ public class Scraper_10_11_2018 {
             listFolder.mkdirs();
         }
 
-        PrintWriter out = null;
+        PrintWriter out;
 
         BufferedReader reader = new BufferedReader(new FileReader(inputFilePath));
         String line;
@@ -125,8 +176,16 @@ public class Scraper_10_11_2018 {
 
             try {
                 Scraper_10_11_2018 scraper = new Scraper_10_11_2018(line);
-                scraper.getInfoBox();
                 String head = scraper.getHeader();// get the name of the person
+
+                String textFolderName = outputFolderPath + "/Paragraphs/" + head.replaceAll(" ", "_") + "/text_paragraphs";
+                new File(textFolderName).mkdirs();//create folder for each person
+                String xmlFolderName = outputFolderPath + "/Paragraphs/" + head.replaceAll(" ", "_") + "/xml_paragraphs";
+                new File(xmlFolderName).mkdirs();//create folder for each person
+
+                scraper.getInfoBox(outputFolderPath);
+                //scraper.scraperFullText();
+
                 scraper.removeElementsByType("sup");// remove references
                 scraper.removeElementsByType("table");// remove table
                 scraper.removeElementsByType("div.refbegin.columns.references-column-width");
@@ -136,20 +195,19 @@ public class Scraper_10_11_2018 {
                 scraper.replaceTagName("h1", "p");// replace <h1> tag with <p>
                 scraper.replaceTagName("h2", "p");// replace <h2> tag with <p>
                 scraper.replaceTagName("h3", "p");// replace <h3> tag with <p>
-                // scraper.replaceTagName("li", "p");// replace <ul> tag with <p>
-                // scraper.removeElementsByType("ul>li:has(a.external.text)");
-                // scraper.removeElementById("mw-panel");// remove panel
-                // scraper.removeElementById("mw-head");// remove head
-                // scraper.removeElementById("mw-navigation");// remove
-                // navigation header
-                // scraper.removeElementById("catlinks");
-                // scraper.removeElementById("footer");
-                Elements paragraphs = scraper.getElementsOfType("p");
-                String textFolderName = outputFolderPath + "/Paragraphs/" + head.replaceAll(" ", "_") + "/text_paragraphs";
-                new File(textFolderName).mkdirs();//create folder for each person
-                String xmlFolderName = outputFolderPath + "/Paragraphs/" + head.replaceAll(" ", "_") + "/xml_paragraphs";
-                new File(xmlFolderName).mkdirs();//create folder for each person
-                for (Element p : paragraphs) {
+
+                /*
+                Rewrite functionality to make the header to first paragraph if we
+                need to.  The tag had id="firstHeading".  all we would have to 
+                do is make that a separate paragraph in another method and
+                increment the pNumber counter.
+                */
+                Element bodyContent = scraper.doc.getElementById("bodyContent");
+                Elements bodyParagraphs = bodyContent.getElementsByTag("p");
+
+                //
+                //Elements paragraphs = scraper.getElementsOfType("p");
+                for (Element p : bodyParagraphs) {
                     if (p.text().equals("See also")) {
                         break;
                     }
@@ -167,26 +225,4 @@ public class Scraper_10_11_2018 {
         }
         reader.close();
     }
-
-    public static String wget(String url) throws MalformedURLException, IOException {
-
-        URL u = new URL(url);
-        HttpURLConnection urlConn = (HttpURLConnection) u.openConnection();
-        String line = null;
-        StringBuilder tmp = new StringBuilder();
-        BufferedReader in = new BufferedReader(new InputStreamReader(urlConn.getInputStream()));
-        while ((line = in.readLine()) != null) {
-            tmp.append(line);
-        }
-        return tmp.toString();
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
 }
